@@ -1,0 +1,983 @@
+{
+  "partition": "train",
+  "features": [
+    "abduction_p90",
+    "abduction_range",
+    "elbow_p10",
+    "trunk_p90",
+    "shoulder_asymmetry_p90",
+    "duration"
+  ],
+  "protocol_sha256": "55e6e488880db80f3d6f626f9450b68f43f9607964476ef774a0cf5e87c2ff6c",
+  "rows": [
+    {
+      "video_id": "PM_001",
+      "person_id": "1",
+      "repetition": "1",
+      "expected_deviation": 0,
+      "video_sha256": "92bdac73d80692914749701cc3adac91eb56eeb9a275d12f2bec93e08325dfd8",
+      "start": 4.333333333333333,
+      "end": 10.8,
+      "coverage": 1.0,
+      "status": "medido",
+      "features": [
+        129.56698608398438,
+        106.8298282623291,
+        154.29923400878906,
+        2.482963705062866,
+        0.11129422336816788,
+        6.466666666666668
+      ]
+    },
+    {
+      "video_id": "PM_001",
+      "person_id": "1",
+      "repetition": "2",
+      "expected_deviation": 0,
+      "video_sha256": "92bdac73d80692914749701cc3adac91eb56eeb9a275d12f2bec93e08325dfd8",
+      "start": 10.833333333333334,
+      "end": 17.9,
+      "coverage": 1.0,
+      "status": "medido",
+      "features": [
+        123.65505828857422,
+        101.30703887939454,
+        157.02977600097657,
+        2.4628960132598876,
+        0.11786924898624421,
+        7.066666666666665
+      ]
+    },
+    {
+      "video_id": "PM_001",
+      "person_id": "1",
+      "repetition": "3",
+      "expected_deviation": 0,
+      "video_sha256": "92bdac73d80692914749701cc3adac91eb56eeb9a275d12f2bec93e08325dfd8",
+      "start": 17.933333333333334,
+      "end": 24.366666666666667,
+      "coverage": 1.0,
+      "status": "medido",
+      "features": [
+        124.9455924987793,
+        102.48461380004883,
+        156.54203338623046,
+        2.867877864837647,
+        0.11570792868733407,
+        6.433333333333334
+      ]
+    },
+    {
+      "video_id": "PM_001",
+      "person_id": "1",
+      "repetition": "4",
+      "expected_deviation": 0,
+      "video_sha256": "92bdac73d80692914749701cc3adac91eb56eeb9a275d12f2bec93e08325dfd8",
+      "start": 24.4,
+      "end": 30.633333333333333,
+      "coverage": 1.0,
+      "status": "medido",
+      "features": [
+        124.93977584838868,
+        103.01400394439698,
+        154.50606231689454,
+        2.636070537567139,
+        0.12106323614716531,
+        6.233333333333334
+      ]
+    },
+    {
+      "video_id": "PM_001",
+      "person_id": "1",
+      "repetition": "5",
+      "expected_deviation": 0,
+      "video_sha256": "92bdac73d80692914749701cc3adac91eb56eeb9a275d12f2bec93e08325dfd8",
+      "start": 30.666666666666668,
+      "end": 36.333333333333336,
+      "coverage": 1.0,
+      "status": "medido",
+      "features": [
+        127.72992248535157,
+        105.52015895843506,
+        153.07137451171874,
+        2.9935959815979003,
+        0.11377076134085655,
+        5.666666666666668
+      ]
+    },
+    {
+      "video_id": "PM_001",
+      "person_id": "1",
+      "repetition": "6",
+      "expected_deviation": 1,
+      "video_sha256": "92bdac73d80692914749701cc3adac91eb56eeb9a275d12f2bec93e08325dfd8",
+      "start": 56.333333333333336,
+      "end": 64.66666666666667,
+      "coverage": 1.0,
+      "status": "medido",
+      "features": [
+        119.53538513183594,
+        97.46095790863038,
+        160.3027130126953,
+        2.559420180320739,
+        0.15561193823814393,
+        8.333333333333336
+      ]
+    },
+    {
+      "video_id": "PM_001",
+      "person_id": "1",
+      "repetition": "7",
+      "expected_deviation": 1,
+      "video_sha256": "92bdac73d80692914749701cc3adac91eb56eeb9a275d12f2bec93e08325dfd8",
+      "start": 68.66666666666667,
+      "end": 78.2,
+      "coverage": 1.0,
+      "status": "medido",
+      "features": [
+        118.37948760986329,
+        96.09534931182861,
+        160.13726654052735,
+        2.2262387037277227,
+        0.13124528378248215,
+        9.533333333333331
+      ]
+    },
+    {
+      "video_id": "PM_001",
+      "person_id": "1",
+      "repetition": "8",
+      "expected_deviation": 1,
+      "video_sha256": "92bdac73d80692914749701cc3adac91eb56eeb9a275d12f2bec93e08325dfd8",
+      "start": 78.23333333333333,
+      "end": 85.13333333333334,
+      "coverage": 1.0,
+      "status": "medido",
+      "features": [
+        112.48657760620117,
+        90.05334949493408,
+        161.27828369140624,
+        2.050426745414734,
+        0.10925442203879357,
+        6.900000000000006
+      ]
+    },
+    {
+      "video_id": "PM_001",
+      "person_id": "1",
+      "repetition": "9",
+      "expected_deviation": 1,
+      "video_sha256": "92bdac73d80692914749701cc3adac91eb56eeb9a275d12f2bec93e08325dfd8",
+      "start": 85.16666666666667,
+      "end": 91.53333333333333,
+      "coverage": 1.0,
+      "status": "medido",
+      "features": [
+        115.78811569213867,
+        92.5500810623169,
+        162.19762573242187,
+        2.052343153953552,
+        0.12561608105897903,
+        6.36666666666666
+      ]
+    },
+    {
+      "video_id": "PM_001",
+      "person_id": "1",
+      "repetition": "10",
+      "expected_deviation": 1,
+      "video_sha256": "92bdac73d80692914749701cc3adac91eb56eeb9a275d12f2bec93e08325dfd8",
+      "start": 91.56666666666666,
+      "end": 98.7,
+      "coverage": 1.0,
+      "status": "medido",
+      "features": [
+        116.35948181152344,
+        94.44379043579102,
+        159.79669952392578,
+        2.450814366340637,
+        0.1392049640417099,
+        7.13333333333334
+      ]
+    },
+    {
+      "video_id": "PM_012",
+      "person_id": "2",
+      "repetition": "1",
+      "expected_deviation": 0,
+      "video_sha256": "0af4e251ad54c17434ab357b6d2304f24cf9cd4aba624caf69b75c50a196be0e",
+      "start": 5.666666666666667,
+      "end": 12.0,
+      "coverage": 1.0,
+      "status": "medido",
+      "features": [
+        111.11432037353516,
+        90.54968166351318,
+        157.11864471435547,
+        1.9460736989974978,
+        0.09646763503551484,
+        6.333333333333333
+      ]
+    },
+    {
+      "video_id": "PM_012",
+      "person_id": "2",
+      "repetition": "2",
+      "expected_deviation": 0,
+      "video_sha256": "0af4e251ad54c17434ab357b6d2304f24cf9cd4aba624caf69b75c50a196be0e",
+      "start": 12.033333333333333,
+      "end": 17.6,
+      "coverage": 1.0,
+      "status": "medido",
+      "features": [
+        109.74386138916016,
+        89.91092338562012,
+        157.8067626953125,
+        1.8780616760253908,
+        0.09926838427782059,
+        5.566666666666668
+      ]
+    },
+    {
+      "video_id": "PM_012",
+      "person_id": "2",
+      "repetition": "3",
+      "expected_deviation": 0,
+      "video_sha256": "0af4e251ad54c17434ab357b6d2304f24cf9cd4aba624caf69b75c50a196be0e",
+      "start": 17.633333333333333,
+      "end": 23.933333333333334,
+      "coverage": 1.0,
+      "status": "medido",
+      "features": [
+        111.62666320800781,
+        92.10434532165527,
+        152.40536499023438,
+        1.7855311632156372,
+        0.10481618344783783,
+        6.300000000000001
+      ]
+    },
+    {
+      "video_id": "PM_012",
+      "person_id": "2",
+      "repetition": "4",
+      "expected_deviation": 0,
+      "video_sha256": "0af4e251ad54c17434ab357b6d2304f24cf9cd4aba624caf69b75c50a196be0e",
+      "start": 23.966666666666665,
+      "end": 29.666666666666668,
+      "coverage": 1.0,
+      "status": "medido",
+      "features": [
+        113.70083923339844,
+        94.15707092285157,
+        149.82184753417968,
+        1.5421401023864745,
+        0.11545024365186692,
+        5.700000000000003
+      ]
+    },
+    {
+      "video_id": "PM_012",
+      "person_id": "2",
+      "repetition": "5",
+      "expected_deviation": 0,
+      "video_sha256": "0af4e251ad54c17434ab357b6d2304f24cf9cd4aba624caf69b75c50a196be0e",
+      "start": 29.7,
+      "end": 34.5,
+      "coverage": 1.0,
+      "status": "medido",
+      "features": [
+        117.53177108764649,
+        96.6852970123291,
+        147.30032653808593,
+        1.9623203039169312,
+        0.10796229317784309,
+        4.800000000000001
+      ]
+    },
+    {
+      "video_id": "PM_012",
+      "person_id": "2",
+      "repetition": "6",
+      "expected_deviation": 1,
+      "video_sha256": "0af4e251ad54c17434ab357b6d2304f24cf9cd4aba624caf69b75c50a196be0e",
+      "start": 56.166666666666664,
+      "end": 60.833333333333336,
+      "coverage": 1.0,
+      "status": "medido",
+      "features": [
+        142.37013092041016,
+        120.08968582153321,
+        154.90860290527343,
+        2.9912407398223877,
+        0.08436688855290413,
+        4.666666666666671
+      ]
+    },
+    {
+      "video_id": "PM_012",
+      "person_id": "2",
+      "repetition": "7",
+      "expected_deviation": 1,
+      "video_sha256": "0af4e251ad54c17434ab357b6d2304f24cf9cd4aba624caf69b75c50a196be0e",
+      "start": 60.86666666666667,
+      "end": 64.5,
+      "coverage": 1.0,
+      "status": "medido",
+      "features": [
+        137.82465057373048,
+        112.65953960418702,
+        140.78966522216797,
+        2.1577314853668215,
+        0.10680455639958382,
+        3.633333333333333
+      ]
+    },
+    {
+      "video_id": "PM_012",
+      "person_id": "2",
+      "repetition": "8",
+      "expected_deviation": 1,
+      "video_sha256": "0af4e251ad54c17434ab357b6d2304f24cf9cd4aba624caf69b75c50a196be0e",
+      "start": 64.53333333333333,
+      "end": 69.0,
+      "coverage": 1.0,
+      "status": "medido",
+      "features": [
+        140.87785949707032,
+        119.85809898376465,
+        148.59619140625,
+        3.188079643249512,
+        0.06472836583852769,
+        4.466666666666669
+      ]
+    },
+    {
+      "video_id": "PM_012",
+      "person_id": "2",
+      "repetition": "9",
+      "expected_deviation": 1,
+      "video_sha256": "0af4e251ad54c17434ab357b6d2304f24cf9cd4aba624caf69b75c50a196be0e",
+      "start": 69.03333333333333,
+      "end": 73.83333333333333,
+      "coverage": 1.0,
+      "status": "medido",
+      "features": [
+        140.6483139038086,
+        118.99488029479981,
+        138.05226440429686,
+        3.2742660522460936,
+        0.05370021723210812,
+        4.799999999999997
+      ]
+    },
+    {
+      "video_id": "PM_012",
+      "person_id": "2",
+      "repetition": "10",
+      "expected_deviation": 1,
+      "video_sha256": "0af4e251ad54c17434ab357b6d2304f24cf9cd4aba624caf69b75c50a196be0e",
+      "start": 73.86666666666666,
+      "end": 77.33333333333333,
+      "coverage": 1.0,
+      "status": "medido",
+      "features": [
+        124.73921966552734,
+        101.60250663757324,
+        141.7917907714844,
+        3.223881196975708,
+        0.06937819868326187,
+        3.4666666666666686
+      ]
+    },
+    {
+      "video_id": "PM_023",
+      "person_id": "3",
+      "repetition": "1",
+      "expected_deviation": 0,
+      "video_sha256": "440148eeba6f3939c4d91bee63c1900e631d1777fa1086c8876b08799bac8472",
+      "start": 1.1666666666666667,
+      "end": 5.833333333333333,
+      "coverage": 1.0,
+      "status": "medido",
+      "features": [
+        115.59651489257813,
+        95.80194721221923,
+        157.34761505126954,
+        2.1154049158096315,
+        0.10344377234578132,
+        4.666666666666666
+      ]
+    },
+    {
+      "video_id": "PM_023",
+      "person_id": "3",
+      "repetition": "2",
+      "expected_deviation": 0,
+      "video_sha256": "440148eeba6f3939c4d91bee63c1900e631d1777fa1086c8876b08799bac8472",
+      "start": 5.866666666666666,
+      "end": 10.0,
+      "coverage": 1.0,
+      "status": "medido",
+      "features": [
+        121.35521697998047,
+        101.43590354919434,
+        156.22901916503906,
+        2.334477663040161,
+        0.11081606894731522,
+        4.133333333333334
+      ]
+    },
+    {
+      "video_id": "PM_023",
+      "person_id": "3",
+      "repetition": "3",
+      "expected_deviation": 0,
+      "video_sha256": "440148eeba6f3939c4d91bee63c1900e631d1777fa1086c8876b08799bac8472",
+      "start": 10.033333333333333,
+      "end": 13.833333333333334,
+      "coverage": 1.0,
+      "status": "medido",
+      "features": [
+        116.59901733398438,
+        96.57908096313477,
+        152.60374755859374,
+        2.2867531776428223,
+        0.11090503185987471,
+        3.8000000000000007
+      ]
+    },
+    {
+      "video_id": "PM_023",
+      "person_id": "3",
+      "repetition": "4",
+      "expected_deviation": 0,
+      "video_sha256": "440148eeba6f3939c4d91bee63c1900e631d1777fa1086c8876b08799bac8472",
+      "start": 13.866666666666667,
+      "end": 17.666666666666668,
+      "coverage": 1.0,
+      "status": "medido",
+      "features": [
+        118.81979217529296,
+        98.6262435913086,
+        155.0892791748047,
+        2.214024019241333,
+        0.10934475809335709,
+        3.8000000000000007
+      ]
+    },
+    {
+      "video_id": "PM_023",
+      "person_id": "3",
+      "repetition": "5",
+      "expected_deviation": 0,
+      "video_sha256": "440148eeba6f3939c4d91bee63c1900e631d1777fa1086c8876b08799bac8472",
+      "start": 17.7,
+      "end": 21.5,
+      "coverage": 1.0,
+      "status": "medido",
+      "features": [
+        118.08236999511719,
+        97.85938377380371,
+        156.01539916992186,
+        2.3508962154388424,
+        0.10574068427085877,
+        3.8000000000000007
+      ]
+    },
+    {
+      "video_id": "PM_023",
+      "person_id": "3",
+      "repetition": "6",
+      "expected_deviation": 1,
+      "video_sha256": "440148eeba6f3939c4d91bee63c1900e631d1777fa1086c8876b08799bac8472",
+      "start": 30.166666666666668,
+      "end": 34.56666666666667,
+      "coverage": 1.0,
+      "status": "medido",
+      "features": [
+        123.10650253295898,
+        103.25863113403321,
+        158.06543884277343,
+        2.2352764129638674,
+        0.081728295981884,
+        4.400000000000002
+      ]
+    },
+    {
+      "video_id": "PM_023",
+      "person_id": "3",
+      "repetition": "7",
+      "expected_deviation": 1,
+      "video_sha256": "440148eeba6f3939c4d91bee63c1900e631d1777fa1086c8876b08799bac8472",
+      "start": 34.6,
+      "end": 39.13333333333333,
+      "coverage": 1.0,
+      "status": "medido",
+      "features": [
+        137.05721130371094,
+        116.86015281677247,
+        157.81312255859376,
+        2.047411870956421,
+        0.12643328607082369,
+        4.533333333333331
+      ]
+    },
+    {
+      "video_id": "PM_023",
+      "person_id": "3",
+      "repetition": "8",
+      "expected_deviation": 1,
+      "video_sha256": "440148eeba6f3939c4d91bee63c1900e631d1777fa1086c8876b08799bac8472",
+      "start": 39.166666666666664,
+      "end": 43.666666666666664,
+      "coverage": 1.0,
+      "status": "medido",
+      "features": [
+        134.64759521484376,
+        114.44377326965333,
+        157.20469360351564,
+        2.2102078437805175,
+        0.0864442765712738,
+        4.5
+      ]
+    },
+    {
+      "video_id": "PM_023",
+      "person_id": "3",
+      "repetition": "9",
+      "expected_deviation": 1,
+      "video_sha256": "440148eeba6f3939c4d91bee63c1900e631d1777fa1086c8876b08799bac8472",
+      "start": 43.7,
+      "end": 48.4,
+      "coverage": 1.0,
+      "status": "medido",
+      "features": [
+        132.5489730834961,
+        112.85408039093018,
+        157.9940383911133,
+        1.7070458650588989,
+        0.0865795187652111,
+        4.699999999999996
+      ]
+    },
+    {
+      "video_id": "PM_023",
+      "person_id": "3",
+      "repetition": "10",
+      "expected_deviation": 1,
+      "video_sha256": "440148eeba6f3939c4d91bee63c1900e631d1777fa1086c8876b08799bac8472",
+      "start": 48.43333333333333,
+      "end": 52.46666666666667,
+      "coverage": 1.0,
+      "status": "medido",
+      "features": [
+        138.9088851928711,
+        118.77875823974611,
+        157.0901092529297,
+        2.265380740165711,
+        0.0967377245426178,
+        4.0333333333333385
+      ]
+    },
+    {
+      "video_id": "PM_032",
+      "person_id": "4",
+      "repetition": "1",
+      "expected_deviation": 0,
+      "video_sha256": "8268366bebbf45f52e5a8d9963497e49d4293c4fe0c28da772c3bd7ade2ae8a1",
+      "start": 3.0,
+      "end": 5.966666666666667,
+      "coverage": 1.0,
+      "status": "medido",
+      "features": [
+        93.55230407714843,
+        71.5300235748291,
+        158.22974853515626,
+        1.1399133205413818,
+        0.0929908275604248,
+        2.966666666666667
+      ]
+    },
+    {
+      "video_id": "PM_032",
+      "person_id": "4",
+      "repetition": "2",
+      "expected_deviation": 0,
+      "video_sha256": "8268366bebbf45f52e5a8d9963497e49d4293c4fe0c28da772c3bd7ade2ae8a1",
+      "start": 6.0,
+      "end": 9.0,
+      "coverage": 1.0,
+      "status": "medido",
+      "features": [
+        96.04929733276367,
+        74.31073474884033,
+        159.88323974609375,
+        1.170271098613739,
+        0.09138674288988113,
+        3.0
+      ]
+    },
+    {
+      "video_id": "PM_032",
+      "person_id": "4",
+      "repetition": "3",
+      "expected_deviation": 0,
+      "video_sha256": "8268366bebbf45f52e5a8d9963497e49d4293c4fe0c28da772c3bd7ade2ae8a1",
+      "start": 9.033333333333333,
+      "end": 11.933333333333334,
+      "coverage": 1.0,
+      "status": "medido",
+      "features": [
+        97.72140579223634,
+        72.8753185272217,
+        154.99834289550782,
+        2.381020390987397,
+        0.08436031118035318,
+        2.9000000000000004
+      ]
+    },
+    {
+      "video_id": "PM_032",
+      "person_id": "4",
+      "repetition": "4",
+      "expected_deviation": 0,
+      "video_sha256": "8268366bebbf45f52e5a8d9963497e49d4293c4fe0c28da772c3bd7ade2ae8a1",
+      "start": 11.966666666666667,
+      "end": 14.7,
+      "coverage": 1.0,
+      "status": "medido",
+      "features": [
+        93.2145492553711,
+        70.90628147125244,
+        152.3527359008789,
+        2.6361439466476453,
+        0.08283472657203675,
+        2.7333333333333325
+      ]
+    },
+    {
+      "video_id": "PM_032",
+      "person_id": "4",
+      "repetition": "5",
+      "expected_deviation": 0,
+      "video_sha256": "8268366bebbf45f52e5a8d9963497e49d4293c4fe0c28da772c3bd7ade2ae8a1",
+      "start": 14.733333333333333,
+      "end": 17.566666666666666,
+      "coverage": 1.0,
+      "status": "medido",
+      "features": [
+        109.76888122558594,
+        85.589235496521,
+        154.01278686523438,
+        1.15292763710022,
+        0.10295274034142494,
+        2.833333333333334
+      ]
+    },
+    {
+      "video_id": "PM_032",
+      "person_id": "4",
+      "repetition": "6",
+      "expected_deviation": 0,
+      "video_sha256": "8268366bebbf45f52e5a8d9963497e49d4293c4fe0c28da772c3bd7ade2ae8a1",
+      "start": 17.6,
+      "end": 20.9,
+      "coverage": 1.0,
+      "status": "medido",
+      "features": [
+        121.09884643554688,
+        98.1525390625,
+        144.224658203125,
+        1.5652018785476685,
+        0.12920917868614196,
+        3.299999999999997
+      ]
+    },
+    {
+      "video_id": "PM_032",
+      "person_id": "4",
+      "repetition": "7",
+      "expected_deviation": 1,
+      "video_sha256": "8268366bebbf45f52e5a8d9963497e49d4293c4fe0c28da772c3bd7ade2ae8a1",
+      "start": 21.833333333333332,
+      "end": 26.5,
+      "coverage": 1.0,
+      "status": "medido",
+      "features": [
+        135.25611877441406,
+        110.65628814697266,
+        141.439111328125,
+        0.8294795870780945,
+        0.1454726278781891,
+        4.666666666666668
+      ]
+    },
+    {
+      "video_id": "PM_032",
+      "person_id": "4",
+      "repetition": "8",
+      "expected_deviation": 1,
+      "video_sha256": "8268366bebbf45f52e5a8d9963497e49d4293c4fe0c28da772c3bd7ade2ae8a1",
+      "start": 26.533333333333335,
+      "end": 30.3,
+      "coverage": 1.0,
+      "status": "medido",
+      "features": [
+        128.9641906738281,
+        104.98554344177245,
+        144.6301696777344,
+        1.323896718025207,
+        0.08089796751737595,
+        3.7666666666666657
+      ]
+    },
+    {
+      "video_id": "PM_032",
+      "person_id": "4",
+      "repetition": "9",
+      "expected_deviation": 1,
+      "video_sha256": "8268366bebbf45f52e5a8d9963497e49d4293c4fe0c28da772c3bd7ade2ae8a1",
+      "start": 30.333333333333332,
+      "end": 33.6,
+      "coverage": 1.0,
+      "status": "medido",
+      "features": [
+        126.49427947998046,
+        101.21706008911133,
+        140.62122802734376,
+        0.9597694873809816,
+        0.10355574041604997,
+        3.2666666666666693
+      ]
+    },
+    {
+      "video_id": "PM_032",
+      "person_id": "4",
+      "repetition": "10",
+      "expected_deviation": 1,
+      "video_sha256": "8268366bebbf45f52e5a8d9963497e49d4293c4fe0c28da772c3bd7ade2ae8a1",
+      "start": 33.63333333333333,
+      "end": 37.06666666666667,
+      "coverage": 1.0,
+      "status": "medido",
+      "features": [
+        139.4470428466797,
+        112.26660041809083,
+        141.66524963378907,
+        1.454865312576294,
+        0.10164726674556733,
+        3.433333333333337
+      ]
+    },
+    {
+      "video_id": "PM_032",
+      "person_id": "4",
+      "repetition": "11",
+      "expected_deviation": 1,
+      "video_sha256": "8268366bebbf45f52e5a8d9963497e49d4293c4fe0c28da772c3bd7ade2ae8a1",
+      "start": 37.1,
+      "end": 41.266666666666666,
+      "coverage": 1.0,
+      "status": "medido",
+      "features": [
+        136.97962951660156,
+        111.35701179504395,
+        138.48509216308594,
+        1.3995567560195923,
+        0.09877762198448181,
+        4.166666666666664
+      ]
+    },
+    {
+      "video_id": "PM_032",
+      "person_id": "4",
+      "repetition": "12",
+      "expected_deviation": 1,
+      "video_sha256": "8268366bebbf45f52e5a8d9963497e49d4293c4fe0c28da772c3bd7ade2ae8a1",
+      "start": 52.1,
+      "end": 56.766666666666666,
+      "coverage": 1.0,
+      "status": "medido",
+      "features": [
+        139.87768859863283,
+        119.79683265686037,
+        134.3097930908203,
+        4.362239265441895,
+        0.11436280608177186,
+        4.666666666666664
+      ]
+    },
+    {
+      "video_id": "PM_032",
+      "person_id": "4",
+      "repetition": "13",
+      "expected_deviation": 0,
+      "video_sha256": "8268366bebbf45f52e5a8d9963497e49d4293c4fe0c28da772c3bd7ade2ae8a1",
+      "start": 56.8,
+      "end": 60.333333333333336,
+      "coverage": 1.0,
+      "status": "medido",
+      "features": [
+        139.75226440429688,
+        116.82422542572021,
+        136.0220687866211,
+        5.325427675247193,
+        0.12641790956258775,
+        3.5333333333333385
+      ]
+    },
+    {
+      "video_id": "PM_032",
+      "person_id": "4",
+      "repetition": "14",
+      "expected_deviation": 0,
+      "video_sha256": "8268366bebbf45f52e5a8d9963497e49d4293c4fe0c28da772c3bd7ade2ae8a1",
+      "start": 60.9,
+      "end": 64.33333333333333,
+      "coverage": 1.0,
+      "status": "medido",
+      "features": [
+        137.51092529296875,
+        117.62601470947266,
+        140.21375732421876,
+        4.832713317871094,
+        0.13646218776702881,
+        3.43333333333333
+      ]
+    },
+    {
+      "video_id": "PM_032",
+      "person_id": "4",
+      "repetition": "15",
+      "expected_deviation": 0,
+      "video_sha256": "8268366bebbf45f52e5a8d9963497e49d4293c4fe0c28da772c3bd7ade2ae8a1",
+      "start": 64.36666666666666,
+      "end": 67.86666666666666,
+      "coverage": 1.0,
+      "status": "medido",
+      "features": [
+        139.13262939453125,
+        119.82051219940186,
+        133.22754974365233,
+        5.8814859867095945,
+        0.15195950865745544,
+        3.5
+      ]
+    },
+    {
+      "video_id": "PM_032",
+      "person_id": "4",
+      "repetition": "16",
+      "expected_deviation": 0,
+      "video_sha256": "8268366bebbf45f52e5a8d9963497e49d4293c4fe0c28da772c3bd7ade2ae8a1",
+      "start": 67.9,
+      "end": 72.0,
+      "coverage": 1.0,
+      "status": "medido",
+      "features": [
+        140.72445678710938,
+        121.75732421875,
+        137.6808319091797,
+        4.999358177185059,
+        0.15107958018779755,
+        4.099999999999994
+      ]
+    },
+    {
+      "video_id": "PM_032",
+      "person_id": "4",
+      "repetition": "17",
+      "expected_deviation": 1,
+      "video_sha256": "8268366bebbf45f52e5a8d9963497e49d4293c4fe0c28da772c3bd7ade2ae8a1",
+      "start": 75.5,
+      "end": 79.83333333333333,
+      "coverage": 1.0,
+      "status": "medido",
+      "features": [
+        155.17472076416016,
+        134.81541748046874,
+        82.73131256103515,
+        6.7237378597259525,
+        0.1057729460299015,
+        4.333333333333329
+      ]
+    },
+    {
+      "video_id": "PM_032",
+      "person_id": "4",
+      "repetition": "18",
+      "expected_deviation": 1,
+      "video_sha256": "8268366bebbf45f52e5a8d9963497e49d4293c4fe0c28da772c3bd7ade2ae8a1",
+      "start": 79.86666666666666,
+      "end": 83.66666666666667,
+      "coverage": 1.0,
+      "status": "medido",
+      "features": [
+        158.24463500976563,
+        136.53366737365724,
+        110.8660903930664,
+        6.299696350097657,
+        0.13894562125205995,
+        3.8000000000000114
+      ]
+    },
+    {
+      "video_id": "PM_032",
+      "person_id": "4",
+      "repetition": "19",
+      "expected_deviation": 1,
+      "video_sha256": "8268366bebbf45f52e5a8d9963497e49d4293c4fe0c28da772c3bd7ade2ae8a1",
+      "start": 83.7,
+      "end": 87.56666666666666,
+      "coverage": 1.0,
+      "status": "medido",
+      "features": [
+        156.57908630371094,
+        131.1334285736084,
+        114.91175689697266,
+        5.656778049468994,
+        0.11411637365818024,
+        3.86666666666666
+      ]
+    },
+    {
+      "video_id": "PM_032",
+      "person_id": "4",
+      "repetition": "20",
+      "expected_deviation": 1,
+      "video_sha256": "8268366bebbf45f52e5a8d9963497e49d4293c4fe0c28da772c3bd7ade2ae8a1",
+      "start": 87.6,
+      "end": 91.76666666666667,
+      "coverage": 1.0,
+      "status": "medido",
+      "features": [
+        152.15737915039062,
+        133.72749137878418,
+        110.84576416015625,
+        5.606297492980957,
+        0.09733132272958755,
+        4.166666666666671
+      ]
+    },
+    {
+      "video_id": "PM_032",
+      "person_id": "4",
+      "repetition": "21",
+      "expected_deviation": 1,
+      "video_sha256": "8268366bebbf45f52e5a8d9963497e49d4293c4fe0c28da772c3bd7ade2ae8a1",
+      "start": 91.8,
+      "end": 95.66666666666667,
+      "coverage": 1.0,
+      "status": "medido",
+      "features": [
+        162.42355346679688,
+        144.34641666412352,
+        94.29650039672852,
+        5.472978305816651,
+        0.10426525846123698,
+        3.8666666666666742
+      ]
+    }
+  ]
+}

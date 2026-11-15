@@ -1,0 +1,174 @@
+{
+  "partition": "teste",
+  "model": "Whisper small multilingual",
+  "device": "cpu",
+  "compute_type": "int8",
+  "language": "pt",
+  "vad_filter": true,
+  "beam_size": 5,
+  "normalization": "lowercase, remove punctuation, collapse whitespace; preserve accents",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "model_load_seconds": 2.8568893000483513,
+  "wer": 0.0,
+  "reference_words": 30,
+  "results": [
+    {
+      "id": "A05",
+      "file": "data\\recordings\\A05.m4a",
+      "sha256": "aae040bf468b26c7d5c72379d65eae26a2fde01a965c17bb2fb56a4275bb4aa1",
+      "reference": "Gostaria de parar porque estou sentindo dor.",
+      "reference_status": "script_expected_not_independently_verified",
+      "expected_attention": "sim",
+      "transcript": "Gostaria de parar porque estou sentindo dor.",
+      "segments": [
+        {
+          "start": 1.68,
+          "end": 4.68,
+          "text": "Gostaria de parar porque estou sentindo dor."
+        }
+      ],
+      "duration_seconds": 5.888,
+      "processing_seconds": 3.913763999938965,
+      "wer": 0.0,
+      "substitutions": 0,
+      "deletions": 0,
+      "insertions": 0,
+      "reference_words": 7,
+      "analysis": {
+        "attention": "sim",
+        "evidence": [
+          {
+            "expression": "dor",
+            "context": "gostaria de parar porque estou sentindo dor",
+            "status": "atual"
+          }
+        ],
+        "review_notes": [],
+        "original_text": "Gostaria de parar porque estou sentindo dor."
+      }
+    },
+    {
+      "id": "A06",
+      "file": "data\\recordings\\A06.m4a",
+      "sha256": "e4e8c53356f7d95e406d203b8a50f32a97f22fa0c76c70ee9e242cf37f3d908e",
+      "reference": "Hoje estou bem e não sinto falta de ar.",
+      "reference_status": "script_expected_not_independently_verified",
+      "expected_attention": "nao",
+      "transcript": "Hoje estou bem e não sinto falta de ar.",
+      "segments": [
+        {
+          "start": 1.49,
+          "end": 4.49,
+          "text": "Hoje estou bem e não sinto falta de ar."
+        }
+      ],
+      "duration_seconds": 5.7173125,
+      "processing_seconds": 3.735704699996859,
+      "wer": 0.0,
+      "substitutions": 0,
+      "deletions": 0,
+      "insertions": 0,
+      "reference_words": 9,
+      "analysis": {
+        "attention": "nao",
+        "evidence": [
+          {
+            "expression": "falta de ar",
+            "context": "hoje estou bem e nao sinto falta de ar",
+            "status": "negado"
+          }
+        ],
+        "review_notes": [],
+        "original_text": "Hoje estou bem e não sinto falta de ar."
+      }
+    },
+    {
+      "id": "A07",
+      "file": "data\\recordings\\A07.m4a",
+      "sha256": "4eaf92102e807b058d49e9c22f54928e815443dfbbf61a328da0de3d85ebf8a3",
+      "reference": "Estou com falta de ar durante o movimento.",
+      "reference_status": "script_expected_not_independently_verified",
+      "expected_attention": "sim",
+      "transcript": "Estou com falta de ar durante o movimento.",
+      "segments": [
+        {
+          "start": 0.94,
+          "end": 3.94,
+          "text": "Estou com falta de ar durante o movimento."
+        }
+      ],
+      "duration_seconds": 5.2053125,
+      "processing_seconds": 3.641522099962458,
+      "wer": 0.0,
+      "substitutions": 0,
+      "deletions": 0,
+      "insertions": 0,
+      "reference_words": 8,
+      "analysis": {
+        "attention": "sim",
+        "evidence": [
+          {
+            "expression": "falta de ar",
+            "context": "estou com falta de ar durante o movimento",
+            "status": "atual"
+          }
+        ],
+        "review_notes": [],
+        "original_text": "Estou com falta de ar durante o movimento."
+      }
+    },
+    {
+      "id": "A08",
+      "file": "data\\recordings\\A08.m4a",
+      "sha256": "301d0235fda604816332b8da35db0746c35d0601a4ba47b52cfb402462a42461",
+      "reference": "O exercício terminou e estou confortável.",
+      "reference_status": "script_expected_not_independently_verified",
+      "expected_attention": "nao",
+      "transcript": "O exercício terminou e estou confortável.",
+      "segments": [
+        {
+          "start": 0.85,
+          "end": 3.85,
+          "text": "O exercício terminou e estou confortável."
+        }
+      ],
+      "duration_seconds": 5.0773125,
+      "processing_seconds": 3.6403171001002192,
+      "wer": 0.0,
+      "substitutions": 0,
+      "deletions": 0,
+      "insertions": 0,
+      "reference_words": 6,
+      "analysis": {
+        "attention": "nao",
+        "evidence": [],
+        "review_notes": [],
+        "original_text": "O exercício terminou e estou confortável."
+      }
+    }
+  ],
+  "attention_accuracy": 1.0,
+  "protocol": {
+    "model": "small",
+    "device": "cpu",
+    "compute_type": "int8",
+    "language": "pt",
+    "vad_filter": true,
+    "beam_size": 5,
+    "calibration": [
+      "A01",
+      "A02",
+      "A03",
+      "A04"
+    ],
+    "test": [
+      "A05",
+      "A06",
+      "A07",
+      "A08"
+    ],
+    "attention_sha256": "da24498caae77e72a29937dbc703f875507ae11142a0e395f66f4ff64b2289f0",
+    "note": "Frozen before first held-out evaluation; script references await human verification."
+  },
+  "warning": "Tiny held-out set, script reference not yet independently verified by listening."
+}

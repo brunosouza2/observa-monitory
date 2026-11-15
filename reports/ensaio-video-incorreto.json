@@ -1,0 +1,8 @@
+{
+  "video": {
+    "source": "data/samples/ensaio-pose-incorreto.mp4",
+    "frames": 60,
+    "frames_with_pose": 60,
+    "seconds": 5.8496338000986725
+  }
+}

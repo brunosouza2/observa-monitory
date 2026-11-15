@@ -1,0 +1,9 @@
+﻿id,particao,texto,atencao
+A01,calibracao,"Estou confortável e consigo continuar o exercício.",nao
+A02,calibracao,"Sinto dor no braço quando levanto a mão.",sim
+A03,calibracao,"Não estou sentindo dor no braço.",nao
+A04,calibracao,"Ontem senti dor mas agora estou bem.",contexto_passado
+A05,teste,"Gostaria de parar porque estou sentindo dor.",sim
+A06,teste,"Hoje estou bem e não sinto falta de ar.",nao
+A07,teste,"Estou com falta de ar durante o movimento.",sim
+A08,teste,"O exercício terminou e estou confortável.",nao

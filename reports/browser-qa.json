@@ -1,0 +1,14 @@
+{
+  "browser": "isolated headless Chrome",
+  "locale": {
+    "lang": "pt-BR",
+    "translate": "no",
+    "google": "notranslate"
+  },
+  "session_id": "e793ab0fc848",
+  "acknowledgement": "2026-11-15T22:06:32.075200+00:00",
+  "json_downloaded": true,
+  "html_downloaded": true,
+  "runtime_exceptions": [],
+  "limitation": "No access to user profile; cannot reproduce pre-existing translated DOM. Initial metadata and normal rerenders verified."
+}

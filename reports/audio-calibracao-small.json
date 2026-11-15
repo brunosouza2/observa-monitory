@@ -1,0 +1,108 @@
+{
+  "partition": "calibracao",
+  "model": "Whisper small multilingual",
+  "device": "cpu",
+  "compute_type": "int8",
+  "language": "pt",
+  "vad_filter": true,
+  "beam_size": 5,
+  "normalization": "lowercase, remove punctuation, collapse whitespace; preserve accents",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "model_load_seconds": 1.3134587998501956,
+  "wer": 0.07142857142857142,
+  "reference_words": 28,
+  "results": [
+    {
+      "id": "A01",
+      "file": "data\\recordings\\A01.m4a",
+      "sha256": "ca326ad3f989b40225eaad1e608d28f08ddf3b3a143578a6e5dedca78cb90bbe",
+      "reference": "Estou confortável e consigo continuar o exercício.",
+      "reference_status": "script_expected_not_independently_verified",
+      "expected_attention": "nao",
+      "transcript": "Estou confortável e consigo continuar o exercício.",
+      "segments": [
+        {
+          "start": 0.37,
+          "end": 4.37,
+          "text": "Estou confortável e consigo continuar o exercício."
+        }
+      ],
+      "duration_seconds": 4.928,
+      "processing_seconds": 1.7697962999809533,
+      "wer": 0.0,
+      "substitutions": 0,
+      "deletions": 0,
+      "insertions": 0,
+      "reference_words": 7
+    },
+    {
+      "id": "A02",
+      "file": "data\\recordings\\A02.m4a",
+      "sha256": "958a07a73d78068317e0df0b832e916fe0970d0f453686f6efc59d3eb73bc002",
+      "reference": "Sinto dor no braço quando levanto a mão.",
+      "reference_status": "script_expected_not_independently_verified",
+      "expected_attention": "sim",
+      "transcript": "Sinto dor no braço quando levanto a mão.",
+      "segments": [
+        {
+          "start": 0.56,
+          "end": 3.56,
+          "text": "Sinto dor no braço quando levanto a mão."
+        }
+      ],
+      "duration_seconds": 4.2453125,
+      "processing_seconds": 1.7339198000263423,
+      "wer": 0.0,
+      "substitutions": 0,
+      "deletions": 0,
+      "insertions": 0,
+      "reference_words": 8
+    },
+    {
+      "id": "A03",
+      "file": "data\\recordings\\A03.m4a",
+      "sha256": "166224be0d6c3e8e23922cb8a600a49a317635d75fc628d36dda9758e4a6da95",
+      "reference": "Não estou sentindo dor no braço.",
+      "reference_status": "script_expected_not_independently_verified",
+      "expected_attention": "nao",
+      "transcript": "Não estou sentindo dor no braço.",
+      "segments": [
+        {
+          "start": 1.17,
+          "end": 4.17,
+          "text": "Não estou sentindo dor no braço."
+        }
+      ],
+      "duration_seconds": 5.0133125,
+      "processing_seconds": 1.5866137000266463,
+      "wer": 0.0,
+      "substitutions": 0,
+      "deletions": 0,
+      "insertions": 0,
+      "reference_words": 6
+    },
+    {
+      "id": "A04",
+      "file": "data\\recordings\\A04.m4a",
+      "sha256": "8fcf94578b1c9f76b2fd28a1ccfd9bff1f288c8cf6680f4326f7bda40bf2ad5e",
+      "reference": "Ontem senti dor mas agora estou bem.",
+      "reference_status": "script_expected_not_independently_verified",
+      "expected_attention": "contexto_passado",
+      "transcript": "Ontem sentidor, mas agora estou bem.",
+      "segments": [
+        {
+          "start": 1.33,
+          "end": 4.33,
+          "text": "Ontem sentidor, mas agora estou bem."
+        }
+      ],
+      "duration_seconds": 5.696,
+      "processing_seconds": 1.631776199908927,
+      "wer": 0.2857142857142857,
+      "substitutions": 1,
+      "deletions": 1,
+      "insertions": 0,
+      "reference_words": 7
+    }
+  ]
+}

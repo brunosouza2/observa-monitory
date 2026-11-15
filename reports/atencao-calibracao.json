@@ -1,0 +1,54 @@
+[
+  {
+    "id": "A01",
+    "attention": "nao",
+    "evidence": [],
+    "review_notes": [],
+    "original_text": "Estou confortável e consigo continuar o exercício.",
+    "expected_attention": "nao"
+  },
+  {
+    "id": "A02",
+    "attention": "sim",
+    "evidence": [
+      {
+        "expression": "dor",
+        "context": "sinto dor no braco quando levanto a mao",
+        "status": "atual"
+      }
+    ],
+    "review_notes": [],
+    "original_text": "Sinto dor no braço quando levanto a mão.",
+    "expected_attention": "sim"
+  },
+  {
+    "id": "A03",
+    "attention": "nao",
+    "evidence": [
+      {
+        "expression": "dor",
+        "context": "nao estou sentindo dor no braco",
+        "status": "negado"
+      }
+    ],
+    "review_notes": [],
+    "original_text": "Não estou sentindo dor no braço.",
+    "expected_attention": "nao"
+  },
+  {
+    "id": "A04",
+    "attention": "contexto_passado",
+    "evidence": [
+      {
+        "expression": "dor",
+        "context": "ontem senti dor",
+        "status": "passado"
+      }
+    ],
+    "review_notes": [
+      "Possivel uniao de palavras: sentidor -> senti dor. Confira o audio."
+    ],
+    "original_text": "Ontem sentidor, mas agora estou bem.",
+    "expected_attention": "contexto_passado"
+  }
+]

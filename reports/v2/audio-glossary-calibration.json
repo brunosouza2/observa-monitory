@@ -1,0 +1,53 @@
+{
+  "config": {
+    "version": "audio-v2",
+    "initial_prompt": "Vocabulário de reabilitação: exercício, braço, dor, falta de ar, movimento.",
+    "language": "pt",
+    "beam_size": 5,
+    "vad_filter": true,
+    "design": "single general glossary, calibration only; no per-file reference or expected class in prompt"
+  },
+  "wer": 0.07142857142857142,
+  "results": [
+    {
+      "id": "A01",
+      "source": "data\\recordings\\A01.m4a",
+      "reference": "Estou confortável e consigo continuar o exercício.",
+      "transcript": "Estou confortável e consigo continuar o exercício.",
+      "wer": 0.0,
+      "errors": 0,
+      "words": 7,
+      "seconds": 2.1413350000511855
+    },
+    {
+      "id": "A02",
+      "source": "data\\recordings\\A02.m4a",
+      "reference": "Sinto dor no braço quando levanto a mão.",
+      "transcript": "Sinto dor no braço quando levanto a mão.",
+      "wer": 0.0,
+      "errors": 0,
+      "words": 8,
+      "seconds": 2.011584799969569
+    },
+    {
+      "id": "A03",
+      "source": "data\\recordings\\A03.m4a",
+      "reference": "Não estou sentindo dor no braço.",
+      "transcript": "Não estou sentindo dor no braço.",
+      "wer": 0.0,
+      "errors": 0,
+      "words": 6,
+      "seconds": 1.8680488001555204
+    },
+    {
+      "id": "A04",
+      "source": "data\\recordings\\A04.m4a",
+      "reference": "Ontem senti dor mas agora estou bem.",
+      "transcript": "Ontem sentidor, mas agora estou bem.",
+      "wer": 0.2857142857142857,
+      "errors": 2,
+      "words": 7,
+      "seconds": 2.0272264999803156
+    }
+  ]
+}

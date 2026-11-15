@@ -1,0 +1,5 @@
+ultralytics
+faster-whisper
+jiwer
+scikit-learn
+streamlit

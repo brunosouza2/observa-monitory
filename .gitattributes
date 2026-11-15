@@ -1,0 +1,6 @@
+# Preserve exact file bytes: experiment provenance includes SHA-256 of sources.
+# In particular, do not normalize existing CRLF files when cloning elsewhere.
+* -text
+*.pdf binary
+*.png binary
+*.jpg binary

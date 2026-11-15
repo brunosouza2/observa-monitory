@@ -1,0 +1,61 @@
+{
+  "version": "v2",
+  "features": [
+    "abduction_p90",
+    "abduction_range",
+    "elbow_p10",
+    "trunk_p90",
+    "shoulder_asymmetry_p90",
+    "duration",
+    "active_elbow_p10",
+    "active_elbow_median",
+    "active_trunk_p90",
+    "active_asymmetry_p90",
+    "active_fraction",
+    "active_bent_fraction",
+    "abduction_speed_p90",
+    "peak_relative_time",
+    "active_elbow_range"
+  ],
+  "candidate": "logistic_v1",
+  "threshold": 0.5,
+  "training_persons": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "7",
+    "8",
+    "9"
+  ],
+  "evaluation": "Retrospective nested subject CV; final artifact fitted on all development data.",
+  "protocol_sha256": "26de64358f1a82adeb9de614bef391b2b79c3ad060428c4682609dea56fa7f08",
+  "features_code_sha256": "cebcc243a112d47703bf02ce5e396e2d33777dfba58bef32a25b8c0bbe1a87e9",
+  "kind": "logistic",
+  "mean": [
+    128.55781675594952,
+    107.89091147059821,
+    136.96981921053646,
+    3.494495123357916,
+    0.1338299759177129,
+    4.972885572139303
+  ],
+  "scale": [
+    26.203384332326532,
+    26.861367003583368,
+    31.408523096403812,
+    1.8460755369131194,
+    0.0384699289031858,
+    1.3762626821659145
+  ],
+  "coef": [
+    0.23348280708059468,
+    0.17642832306652648,
+    -2.0475982172488134,
+    -0.8107212008783051,
+    -0.9870584456472719,
+    0.3563688781397265
+  ],
+  "intercept": 0.18527708746981186
+}

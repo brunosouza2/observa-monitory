@@ -1,0 +1,12 @@
+{
+  "registered_date": "2026-11-15",
+  "design": "exploratory follow-up after generic v2 failed to beat always-alert F1",
+  "support": "first dataset-labelled correct repetition per person, explicit calibration input",
+  "queries": "all other repetitions, support never scored",
+  "evaluation": "nested leave-one-person-out, retrospective, conditional on correct support",
+  "candidates": ["logistic C=0.3 balanced", "forest 100 trees depth4 leaf3 balanced"],
+  "features": "signed and absolute difference of v2 geometry from support",
+  "threshold": 0.5,
+  "seed": 42,
+  "no_new_untouched_test_claim": true
+}

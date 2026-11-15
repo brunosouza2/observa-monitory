@@ -1,0 +1,1 @@
+﻿{"exercise":1,"camera":17,"train":["PM_001","PM_012","PM_023","PM_032"],"validation":["PM_039","PM_122"],"test":["PM_109","PM_114"],"sample_stride":6,"image_size":640,"keypoint_confidence":0.35,"min_coverage":0.65,"protocol":"v1; frontal right-arm abduction; split by participant; test untouched until frozen"}

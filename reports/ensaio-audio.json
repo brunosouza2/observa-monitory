@@ -1,0 +1,14 @@
+{
+  "audio": {
+    "source": "data/samples/jfk.flac",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 11.0,
+        "text": " And so my fellow Americans, ask not what your country can do for you, ask what you can do for your country."
+      }
+    ],
+    "seconds": 1.3110746999736875
+  }
+}

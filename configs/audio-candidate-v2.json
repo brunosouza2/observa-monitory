@@ -1,0 +1,8 @@
+{
+  "version": "audio-v2",
+  "initial_prompt": "Vocabulário de reabilitação: exercício, braço, dor, falta de ar, movimento.",
+  "language": "pt",
+  "beam_size": 5,
+  "vad_filter": true,
+  "design": "single general glossary, calibration only; no per-file reference or expected class in prompt"
+}

@@ -1,0 +1,17 @@
+{
+  "audio": {
+    "source": "data/samples/fala-sintetica.wav",
+    "language": "pt",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 6.24,
+        "text": " Durante o exercício eu sentidor no braço, agora estou melhor."
+      }
+    ],
+    "seconds": 1.3786498999688774
+  },
+  "reference": "Durante o exercício eu senti dor no braço. Agora estou melhor.",
+  "wer": 0.18181818181818182,
+  "sample_type": "synthetic_windows_maria_ptBR_smoke_test_not_clinical_evaluation"
+}

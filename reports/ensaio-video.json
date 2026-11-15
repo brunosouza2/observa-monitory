@@ -1,0 +1,8 @@
+{
+  "video": {
+    "source": "data/samples/ensaio-pose.mp4",
+    "frames": 60,
+    "frames_with_pose": 60,
+    "seconds": 5.49452990014106
+  }
+}

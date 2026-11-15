@@ -1,0 +1,56 @@
+{
+  "features": [
+    "abduction_p90",
+    "abduction_range",
+    "elbow_p10",
+    "trunk_p90",
+    "shoulder_asymmetry_p90",
+    "duration"
+  ],
+  "mean": [
+    127.06686227835858,
+    105.35484557058295,
+    146.25201531204524,
+    2.7778943265185645,
+    0.10816772034501328,
+    4.677124183006538
+  ],
+  "scale": [
+    16.088944350792094,
+    16.373884206563684,
+    16.824389454308168,
+    1.4896417615382989,
+    0.02182517355555251,
+    1.4606007985207945
+  ],
+  "coef": [
+    1.3597294009320395,
+    0.8419494824043927,
+    -0.4396593895267773,
+    -0.9874530643190301,
+    -0.6149837893678565,
+    0.7998032843040496
+  ],
+  "intercept": -0.029561441814584078,
+  "threshold": 0.35,
+  "created_utc": "2026-11-14T16:14:02.489356+00:00",
+  "model": "standardized logistic regression C=1 balanced; deviation is positive; no clinical probability",
+  "train_persons": [
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
+  "validation_persons": [
+    "5",
+    "7"
+  ],
+  "frozen_sources": {
+    "configs/video-protocol.json": "55e6e488880db80f3d6f626f9450b68f43f9607964476ef774a0cf5e87c2ff6c",
+    "src/movement.py": "ec20e43c217f59a67597d60696410c1ff3c5c3bab122c1905f828dc1cc52a20e",
+    "scripts/treinar_movimento.py": "a9d7b48a9ddc29fa535348929398749dbbc64aac424553e3ffb7e39ef11e2e4f",
+    "reports/video-train.json": "f568dac001550503e99d17cc099909f90c1aef3963a01f7b234cc9ed3e728797",
+    "reports/video-validation.json": "2bbe137843e39f142a9a3e79e01dfee577b9bbe9b73ea5ad30901237740c0bca",
+    "models/yolov8n-pose.pt": "c6fa93dd1ee4a2c18c900a45c1d864a1c6f7aba75d84f91648a30b7fb641d212"
+  }
+}

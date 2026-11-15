@@ -1,0 +1,22 @@
+{
+  "model": "small",
+  "device": "cpu",
+  "compute_type": "int8",
+  "language": "pt",
+  "vad_filter": true,
+  "beam_size": 5,
+  "calibration": [
+    "A01",
+    "A02",
+    "A03",
+    "A04"
+  ],
+  "test": [
+    "A05",
+    "A06",
+    "A07",
+    "A08"
+  ],
+  "attention_sha256": "da24498caae77e72a29937dbc703f875507ae11142a0e395f66f4ff64b2289f0",
+  "note": "Frozen before first held-out evaluation; script references await human verification."
+}
