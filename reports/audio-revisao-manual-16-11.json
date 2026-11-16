@@ -6,6 +6,7 @@
   "method": "recording_author_listening_and_comparison_with_script",
   "source": "user_confirmation_in_project_conversation",
   "user_statement": "Conferi, tudo está correto.",
+  "explicit_followup_confirmation": "Ouvi as quatro: todas coincidem com os roteiros",
   "verified_ids": [
     "A05",
     "A06",

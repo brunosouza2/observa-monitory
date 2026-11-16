@@ -1,6 +1,6 @@
 # Acompanhamento da entrega
 
-Atualizado em **16/11/2026**, após confirmar as referências de áudio com Bruno, concluir a revisão do relatório, preparar o roteiro e reproduzir os cenários no computador escolhido para a apresentação. A passagem ao grupo aguarda confirmação humana.
+Atualizado em **16/11/2026**, após confirmar as referências de áudio com Bruno, concluir a revisão do relatório, preparar o roteiro e reproduzir os cenários. **Plano atual: Bruno fará o vídeo sozinho.** A passagem interna aos colegas foi dispensada por essa decisão; o material foi adaptado para um apresentador.
 
 **Prazo: 17/11/2026, às 23h59 (Brasília).** Escopo: vídeo e áudio/transcrição, com execução local.
 
@@ -12,7 +12,7 @@ Este é o checklist principal do projeto. O [planejamento](docs/planejamento/pla
 | --- | --- | --- | --- |
 | 1. Preparar ambiente e amostras | Sábado, 14/11 | Concluída | — |
 | 2. Implementar análises e avaliar | Domingo, 15/11 | Concluída na rodada atual | Manter as limitações experimentais documentadas. |
-| 3. Integrar e preparar a entrega | Segunda, 16/11 | Referências confirmadas, relatório revisado, roteiro pronto e exemplos reproduzidos | Apresentar a solução aos colegas e confirmar que conseguem demonstrá-la. |
+| 3. Integrar e preparar a entrega | Segunda, 16/11 | Concluída no plano atual: referências confirmadas, relatório revisado, roteiro individual pronto e exemplos reproduzidos | — |
 | 4. Gravar e publicar a apresentação | Terça, 17/11, manhã/tarde | A fazer | Ensaiar, gravar, publicar e conferir acesso. |
 | 5. Conferir e submeter | Terça, 17/11, antes de 23h59 | A fazer | Validar links e arquivos e efetuar a entrega. |
 
@@ -20,7 +20,7 @@ Este é o checklist principal do projeto. O [planejamento](docs/planejamento/pla
 
 ## Próximas ações, em ordem
 
-Os pacotes de 14/11 e 15/11 estão concluídos. Em 16/11, o material técnico e o roteiro foram preparados e os áudios conferidos por Bruno; falta a passagem interna ao grupo. Os métodos e limites conhecidos foram mantidos, sem nova rodada de ajuste do modelo.
+Os pacotes de 14/11, 15/11 e de preparação técnica de 16/11 estão concluídos. Os áudios foram conferidos por Bruno e o roteiro foi adaptado para sua apresentação individual. A passagem interna foi dispensada pelo usuário. Os métodos e limites conhecidos foram mantidos, sem nova rodada de ajuste do modelo.
 
 ### Cronograma atualizado a partir do estado real
 
@@ -28,18 +28,18 @@ Os pacotes de 14/11 e 15/11 estão concluídos. Em 16/11, o material técnico e 
 | --- | --- | --- | --- |
 | **14/11, sábado — realizado** | Ambiente, dados, modelos, primeira implementação das análises, painel, avaliação inicial, relatório experimental e testes manuais. | Codex + Bruno | Primeira rodada concluída, feedback registrado e problemas conhecidos listados. |
 | **15/11, domingo — concluído** | Investigação, novo protocolo, comparação personalizada, correções de interface, validação manual e confirmação de alerta/exportação concluídos (T14/T15/T16/T26.1/T27). | Codex + Bruno | Rodada encerrada; evidências em docs/acompanhamento/fechamento-15-11.md. |
-| **16/11, segunda — material e revisão concluídos; passagem ao grupo pendente** | Áudios A05–A08 confirmados por Bruno (T16.1); relatório/PDF de dez páginas revisados (T28); roteiro pronto (T29); repositório público e quatro cenários conferidos neste computador (T31). Aguardar passagem ao grupo (T30). | Codex: material e verificação; Bruno: escuta concluída; grupo: passagem interna. | Deixar os colegas preparados para a gravação. |
-| **17/11, terça — apresentação e entrega** | Ensaiar, gravar, publicar e conferir o vídeo; inserir link definitivo; revisar acesso e submeter (T32–T39). | Grupo: gravação/publicação; Bruno: conferência e submissão; Codex: apoio à documentação. | Vídeo de até 15 minutos, repositório e relatório acessíveis; submissão antes de 23h59, com margem. |
+| **16/11, segunda — concluído no plano atual** | Áudios A05–A08 confirmados por Bruno (T16.1); relatório/PDF de dez páginas revisados (T28); roteiro individual pronto (T29); repositório público e quatro cenários conferidos neste computador (T31). T30 dispensada por gravação individual. | Codex: material e verificação; Bruno: escuta e decisão de apresentar sozinho. | Material preparado para Bruno gravar a apresentação. |
+| **17/11, terça — apresentação e entrega** | Ensaiar, gravar, publicar e conferir o vídeo; inserir link definitivo; revisar acesso e submeter (T32–T39). | Bruno: ensaio, gravação, publicação, conferência e submissão; Codex: apoio à documentação. | Vídeo de até 15 minutos, repositório e relatório acessíveis; submissão antes de 23h59, com margem. |
 
 O bloco de 15/11 foi encerrado. Priorizar a revisão final e estabilização em 16/11 para preservar a gravação e a submissão.
 
 ### Ação imediata
 
-1. **Bruno + grupo, 16/11:** usar o [roteiro](docs/apresentacao/roteiro-video.md) e o [guia do grupo](docs/apresentacao/guia-do-grupo.md) para a passagem interna; confirmar que os colegas conseguem demonstrar (T30).
-2. **Grupo, 17/11:** ensaiar, gravar e publicar a apresentação; informar o link definitivo para atualizar os entregáveis (T32–T36).
-3. **Bruno + grupo, 17/11:** conferir acesso, arquivos e links e submeter antes das 23h59 (T37–T39).
+1. **Bruno, 17/11:** ensaiar a apresentação individual usando o [roteiro](docs/apresentacao/roteiro-video.md) e o [guia do apresentador](docs/apresentacao/guia-apresentador.md), medindo duração e verificando tela/microfone (T32).
+2. **Bruno, 17/11:** gravar e publicar a apresentação; informar o link definitivo para atualizar os entregáveis (T33–T36).
+3. **Bruno + Codex, 17/11:** conferir acesso, arquivos e links; Bruno efetua a submissão antes das 23h59 (T37–T39).
 
-A revisão manual das referências está concluída. A próxima confirmação humana refere-se à passagem da solução aos colegas; gravação, publicação e submissão permanecem pendentes.
+A revisão manual e a preparação do material estão concluídas. Ensaio, gravação, publicação e submissão permanecem pendentes.
 
 ## 1. Ambiente e dados — concluída em 14/11
 
@@ -94,8 +94,8 @@ Evidências: [protocolo de vídeo](configs/video-protocol.json), [métricas de t
 - [x] T27.8 — **15/11:** mitigar conflito com tradução automática confirmado no navegador, preparar idioma inicial, evitar rerun nos downloads e verificar o fluxo/downloads em Chrome isolado. 28 testes unitários passaram. Evidências em [correcao-navegador-15-11.md](docs/operacao/correcao-navegador-15-11.md).
 - [x] T27.9 — **Bruno, 15/11:** confirmou “Tudo está funcionando depois das alterações”. As avaliações salvas foram preservadas.
 - [x] T28 — **16/11 · Bruno + Codex:** relatório e PDF de dez páginas revisados, com arquitetura, escopo, métricas, evidências e limites; confirmação de escuta A05–A08 incorporada. A inclusão do link definitivo do vídeo permanece em T36.
-- [x] T29 — **16/11 · Codex:** [roteiro de fala e demonstrações](docs/apresentacao/roteiro-video.md) pronto, com divisão proposta, controles reais e duração de 12–13 minutos. Quatro cenários reproduzidos no painel. A passagem humana aos colegas permanece em T30.
-- [ ] T30 — **A fazer · Bruno + grupo:** apresentar a solução internamente e conferir que os colegas conseguem demonstrá-la.
+- [x] T29 — **16/11 · Codex:** [roteiro de fala e demonstrações](docs/apresentacao/roteiro-video.md) adaptado para Bruno apresentar sozinho, com controles reais e duração de 12–13 minutos. Quatro cenários reproduzidos no painel; [guia individual](docs/apresentacao/guia-apresentador.md) disponível.
+- [x] T30 — **Dispensada por decisão de Bruno, 16/11:** a passagem da solução aos colegas deixou de ser pré-requisito porque, no plano atual, Bruno fará o vídeo sozinho. A tarefa foi encerrada por mudança de plano; o ensaio individual permanece em T32.
 - [x] T31 — **16/11 · Bruno + Codex:** Bruno confirmou este computador para a demonstração. Repositório público com HTTP 200 e branch remota conferida; quatro cenários reproduzidos por AppTest na instalação local existente. [Manifesto e saídas](reports/entrega/README.md). Não é instalação limpa ou novo teste de download no navegador.
 - [x] T31.1 — **15/11:** Bruno criou o repositório [observa-monitory](https://github.com/brunosouza2/observa-monitory); `origin` foi configurado e a branch local definida como `main`. A reprodução que ficou pendente nessa data foi conferida em T31, em 16/11.
 - [x] T31.2 — **15/11, conferido em 16/11:** primeiro envio concluído, commit `efdb6f7` na branch `main`; acesso público sem autenticação verificado em 16/11.
@@ -105,21 +105,21 @@ Evidências: [painel](app.py), [guia de teste atual](docs/testes/teste-15-11.md)
 
 ## 4. Apresentação — prevista para 17/11
 
-- [ ] T32 — **Grupo:** ensaiar a apresentação com as demonstrações escolhidas.
-- [ ] T33 — **Grupo:** gravar vídeo com até 15 minutos.
-- [ ] T34 — **Grupo:** publicar no YouTube ou Vimeo, público ou não listado.
-- [ ] T35 — **Bruno + grupo:** conferir áudio, legibilidade, duração e acesso pelo link.
+- [ ] T32 — **Bruno:** ensaiar a apresentação individual com as demonstrações escolhidas, cronometrando e conferindo captura de tela/microfone.
+- [ ] T33 — **Bruno:** gravar vídeo com até 15 minutos, operando o painel e narrando.
+- [ ] T34 — **Bruno:** publicar no YouTube ou Vimeo, público ou não listado.
+- [ ] T35 — **Bruno:** conferir áudio, legibilidade, duração e acesso pelo link.
 - [ ] T36 — **Bruno + Codex:** inserir o link definitivo no README e no relatório técnico e regenerar o PDF.
 
 ## 5. Entrega — prevista para 17/11, com antecedência ao prazo
 
 - [ ] T37 — **Bruno + Codex:** verificar acesso ao repositório e presença do código, relatório e instruções.
-- [ ] T38 — **Bruno + grupo:** conferir os links definitivos e os entregáveis exigidos.
-- [ ] T39 — **Bruno ou responsável do grupo:** efetuar a submissão antes de 23h59 e guardar a confirmação.
+- [ ] T38 — **Bruno + Codex:** conferir os links definitivos e os entregáveis exigidos.
+- [ ] T39 — **Bruno:** efetuar a submissão antes de 23h59 e guardar a confirmação.
 
 ## Como interpretar os estados
 
-- `[x]`: trabalho executado, com evidência indicada.
+- `[x]`: trabalho executado, com evidência indicada, ou tarefa explicitamente dispensada por decisão do usuário, com o motivo registrado.
 - `[ ] A fazer`: ainda falta executar.
 - `[ ] Aguardando teste/revisão`: depende da conferência indicada para ser encerrado.
 

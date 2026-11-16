@@ -188,3 +188,9 @@ Implementados: seleção da pessoa e medidas de repetições completas, classifi
 Os dados reservados já foram avaliados. Vídeo: F1 0,39 em 42 repetições, abaixo da referência de sinalizar tudo; o classificador requer outra rodada de desenvolvimento. Áudio: quatro transcrições coincidiram com os roteiros e classes esperadas; referências ainda precisam de escuta humana. Não reajustar parâmetros e apresentar a repetição desses testes como evidência independente.
 
 Próxima ação do grupo: executar [teste-segunda-rodada.md](../testes/teste-segunda-rodada.md). Preservar tempo para revisão dos erros, ensaio, gravação e submissão no prazo. Relatório e interface estão implementados, mas a melhoria da classificação do movimento e a revisão humana continuam pendentes. O cronograma foi antecipado; a qualidade dessa frente ainda não está encerrada.
+
+## Atualização da preparação e gravação — 16/11
+
+As rodadas de desenvolvimento e a revisão das referências de áudio foram concluídas, com resultados e limites preservados no relatório atual. Bruno informou que, no plano vigente, fará o vídeo sozinho, narrando e operando o painel neste computador. O [roteiro individual](../apresentacao/roteiro-video.md) e o [guia do apresentador](../apresentacao/guia-apresentador.md) substituem a divisão de falas prevista inicialmente. A passagem interna aos colegas foi dispensada por essa decisão; o projeto continua sendo do grupo.
+
+O material de 16/11 está preparado. Ensaio individual cronometrado, gravação, publicação e submissão continuam em 17/11. O estado de cada tarefa está no [checklist principal](../../TAREFAS.md).

@@ -9,7 +9,7 @@ O andamento atual está em [TAREFAS.md](../TAREFAS.md). Os documentos abaixo est
 | [experimentos/](experimentos/) | Ensaios, avaliações e resultados das rodadas de desenvolvimento. |
 | [operacao/](operacao/) | Reprodução do projeto e solução de problemas da interface. |
 | [relatorios/](relatorios/) | Relatório técnico atual em Markdown e PDF. |
-| [apresentacao/](apresentacao/) | Roteiro do vídeo e passagem da solução aos colegas. |
+| [apresentacao/](apresentacao/) | Roteiro do vídeo e preparação do apresentador. Plano atual: apresentação individual de Bruno. |
 | [acompanhamento/](acompanhamento/) | Auditoria e fechamento das tarefas por dia. |
 | [historico/](historico/) | Versões anteriores do relatório técnico. |
 
@@ -25,7 +25,7 @@ O andamento atual está em [TAREFAS.md](../TAREFAS.md). Os documentos abaixo est
 - [Relatório técnico atual — Markdown](relatorios/relatorio-tecnico.md)
 - [Arquitetura implementada](relatorios/arquitetura.md)
 - [Roteiro do vídeo](apresentacao/roteiro-video.md)
-- [Guia para o grupo](apresentacao/guia-do-grupo.md)
+- [Guia do apresentador](apresentacao/guia-apresentador.md)
 - [Evidências selecionadas da demonstração](../reports/entrega/README.md)
 - [Preparação e pendências de 16/11](acompanhamento/preparacao-16-11.md)
 - [Fechamento de 15/11](acompanhamento/fechamento-15-11.md)

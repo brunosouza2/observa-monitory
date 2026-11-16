@@ -1,6 +1,6 @@
-# Guia para apresentar o Observa
+# Guia do apresentador — Observa
 
-Objetivo de hoje, 16/11: Bruno explicar a solução aos dois colegas, conferir a divisão de falas e deixar a demonstração pronta para gravar em 17/11. O [roteiro do vídeo](roteiro-video.md) define telas, falas e duração.
+**Plano atualizado em 16/11:** Bruno apresentará sozinho, operando o painel e narrando. O [roteiro do vídeo](roteiro-video.md) define telas, falas e duração. A passagem interna aos colegas deixou de ser pré-requisito neste planejamento; o projeto continua sendo do grupo.
 
 ## Explicação em linguagem simples
 
@@ -10,24 +10,24 @@ Nos exemplos, **PM_001** identifica um vídeo do dataset. **Repetição completa
 
 **Referência do dataset** é o gabarito da repetição analisada. **Execução correta usada para calibração** é o movimento de apoio fornecido ao modelo. São informações com funções diferentes. O modelo não recebe o gabarito da consulta para decidir a classe.
 
-## Etapas da explicação interna — aproximadamente 30 minutos
+## Preparação individual — aproximadamente 30 minutos
 
-1. **5 minutos:** abrir o painel e explicar os controles e a referência de calibração.
-2. **10 minutos:** Bruno demonstra repetição 1/A01, repetição 2/A01 e repetição 6/A02, confirma o alerta e abre JSON/HTML.
-3. **5 minutos:** mostrar A03, o erro conhecido de A04 e os números do relatório técnico.
-4. **10 minutos:** cada colega executa ou narra pelo menos uma parte do roteiro. Ajustar a divisão e anotar dúvidas.
+1. **5 minutos:** abrir o painel e revisar os controles e a referência de calibração.
+2. **10 minutos:** executar repetição 1/A01, repetição 2/A01 e repetição 6/A02, confirmar o alerta e abrir JSON/HTML, narrando as ações.
+3. **5 minutos:** revisar A03, o erro conhecido de A04 e os números do relatório técnico.
+4. **10 minutos:** conferir a captura da tela e do microfone, organizar as abas e praticar as transições entre painel, relatório e repositório. O ensaio completo cronometrado permanece em T32.
 
-## Verificação pelos colegas
+## Verificação antes do ensaio
 
-- Conseguimos explicar o problema e as duas modalidades em uma frase.
-- Sabemos por que a referência não conta como acerto.
-- Conseguimos executar os cenários sem trocar o gabarito pelo resultado do modelo.
-- Conseguimos confirmar o recebimento e mostrar a confirmação no arquivo exportado.
-- Sabemos que as fontes dos exemplos são independentes e o protótipo não envia mensagens à equipe médica.
-- Sabemos explicar F1, precisão, recall, os 21 desvios perdidos e a limitação do áudio.
-- Sabemos onde estão código, relatório técnico e instruções de reprodução.
+- Consigo explicar o problema e as duas modalidades em uma frase.
+- Sei por que a referência não conta como acerto.
+- Consigo executar os cenários sem trocar o gabarito pelo resultado do modelo.
+- Consigo confirmar o recebimento e mostrar a confirmação no arquivo exportado.
+- Sei que as fontes dos exemplos são independentes e o protótipo não envia mensagens à equipe médica.
+- Sei explicar F1, precisão, recall, os 21 desvios perdidos e a limitação do áudio.
+- Sei onde estão código, relatório técnico e instruções de reprodução.
 
-Bruno deve confirmar a realização dessa passagem para encerrar **T30**. A existência deste guia não comprova que os colegas já foram preparados. O ensaio cronometrado e a gravação permanecem nas tarefas de 17/11.
+**T30 foi dispensada por mudança explícita do plano de gravação.** Isso registra a decisão de Bruno de apresentar sozinho. A preparação individual, o ensaio cronometrado e a gravação continuam necessários; a existência deste guia não comprova que já foram realizados.
 
 ## Perguntas prováveis
 

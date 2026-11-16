@@ -27,7 +27,7 @@ Veja o [guia de 15/11](docs/testes/teste-15-11.md) para testar os exemplos, envi
 - [Relatório técnico em Markdown](docs/relatorios/relatorio-tecnico.md) e [PDF](docs/relatorios/relatorio-tecnico.pdf).
 - [Reprodução dos experimentos](docs/operacao/reproducao.md).
 - [Planejamento e estado do cronograma](docs/planejamento/planejamento-fase-4.md).
-- [Roteiro do vídeo e demonstrações](docs/apresentacao/roteiro-video.md) e [guia para o grupo](docs/apresentacao/guia-do-grupo.md).
+- [Roteiro do vídeo e demonstrações](docs/apresentacao/roteiro-video.md) e [guia do apresentador](docs/apresentacao/guia-apresentador.md). Plano atual: Bruno fará a apresentação sozinho, narrando e operando o painel.
 - [Evidências selecionadas de sessões JSON/HTML](reports/entrega/README.md), geradas por verificação funcional automatizada, com confirmação identificada como automática.
 - Métricas e matrizes em `reports/video-*-metrics.json`; áudio reservado em `reports/audio-teste-small.json`.
 - Sessões e confirmações em `reports/sessions`; feedback em `reports/feedback`.
