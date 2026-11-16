@@ -18,7 +18,7 @@ Em 14/11, o experimento original separou pessoas: treino 1–4 (51 repetições)
 
 Em 15/11, todos esses exemplos passaram a ser dados de desenvolvimento. Os novos experimentos são retrospectivos; não possuem um novo teste inédito. Essa distinção impede apresentar a diferença entre F1 de protocolos diferentes como ganho confirmado de generalização.
 
-Áudio: oito gravações próprias em português, A01–A04 para calibração e A05–A08 na avaliação reservada de 14/11. Referências são os roteiros em data/scenarios/roteiros-audio.csv. Em 15/11 o usuário confirmou não ter percebido divergências adicionais na calibração, além do erro conhecido em A04. As referências de A05–A08 ainda devem ser conferidas por escuta antes do fechamento final. O procedimento está em docs/testes/revisao-audio-16-11.md; o WER informado continua sendo calculado contra os roteiros.
+Áudio: oito gravações próprias em português, A01–A04 para calibração e A05–A08 na avaliação reservada de 14/11. Referências são os roteiros em data/scenarios/roteiros-audio.csv. Em 15/11 o usuário confirmou não ter percebido divergências adicionais na calibração, além do erro conhecido em A04. Em 16/11, Bruno confirmou por escuta que A05–A08 coincidem com os roteiros. A revisão foi feita pelo próprio autor das gravações; não é anotação independente e cega. O registro posterior está em reports/audio-revisao-manual-16-11.json; o resultado original de 14/11 foi preservado.
 
 ## 3. Arquitetura e modelos
 

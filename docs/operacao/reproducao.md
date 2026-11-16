@@ -9,7 +9,7 @@ Os scripts devem ser executados a partir da raiz do projeto. Os comandos abaixo 
 3. Para reproduzir as medidas, use `python scripts/extrair_movimento.py --partition train`, depois `validation` e `test`. A extração guarda um cache por hash da fonte e parâmetros.
 4. O classificador congelado está em `configs/movement-model.json`. `python scripts/treinar_movimento.py --evaluate-test` compara esse artefato com a partição de teste sem reajustá-lo. O script verifica a assinatura dos arquivos que definem o experimento.
 5. Para novo treinamento, use uma cópia limpa dos resultados anteriores e preserve o relatório da primeira avaliação. O comando `python scripts/treinar_movimento.py` utiliza exclusivamente treino e validação e se recusa a reajustar depois que há métricas de teste nesse diretório.
-6. Para áudio, `python scripts/avaliar_audio_reservado.py` usa parâmetros e regras registrados em `configs/audio-protocol.json`. As referências ainda devem ser conferidas pelo usuário por escuta.
+6. Para áudio, `python scripts/avaliar_audio_reservado.py` usa parâmetros e regras registrados em `configs/audio-protocol.json`. Bruno conferiu as referências por escuta em 16/11, com confirmação registrada separadamente em `reports/audio-revisao-manual-16-11.json`. O aviso no resultado original preserva o estado histórico da primeira avaliação.
 7. Abra o painel com `powershell -NoProfile -ExecutionPolicy Bypass -File .\iniciar-painel.ps1`. Ele fica somente em `http://127.0.0.1:8501`. Encerrar com Ctrl+C no terminal.
 
 O protótipo processa arquivos gravados; não há garantia de processamento em tempo real. Arquivos próprios podem conter apenas uma repetição, ou um intervalo informado manualmente. A classificação só se destina ao exercício e vista definidos no protocolo.
@@ -29,4 +29,4 @@ Para uma instalação em ambiente virtual, use `python` no lugar de `.tools/pyth
 
 As métricas e configurações treinadas estão versionadas e podem ser inspecionadas sem pesos ou dados brutos. Para executar a demonstração, o clone precisa de dependências, pesos, vídeos e das gravações A01–A04. Se não tiver as gravações, use **Meus arquivos** com áudio próprio; isso não reproduz exatamente os quatro cenários acima.
 
-A revisão humana das referências A05–A08 está descrita em [revisao-audio-16-11.md](../testes/revisao-audio-16-11.md). O resultado original de áudio é preservado; eventual confirmação posterior é documentada separadamente.
+A revisão humana das referências A05–A08 está concluída e descrita em [revisao-audio-16-11.md](../testes/revisao-audio-16-11.md). O resultado original de áudio é preservado; a confirmação posterior está documentada separadamente, sem representar novo teste independente.

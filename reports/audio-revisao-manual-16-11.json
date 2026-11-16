@@ -1,0 +1,26 @@
+{
+  "status": "confirmed_by_listening",
+  "review_date_brasilia": "2026-11-16",
+  "recorded_utc": "2026-11-16T22:50:32.300611+00:00",
+  "reviewer": "Bruno",
+  "method": "recording_author_listening_and_comparison_with_script",
+  "source": "user_confirmation_in_project_conversation",
+  "user_statement": "Conferi, tudo está correto.",
+  "verified_ids": [
+    "A05",
+    "A06",
+    "A07",
+    "A08"
+  ],
+  "recording_sha256": {
+    "A05": "aae040bf468b26c7d5c72379d65eae26a2fde01a965c17bb2fb56a4275bb4aa1",
+    "A06": "e4e8c53356f7d95e406d203b8a50f32a97f22fa0c76c70ee9e242cf37f3d908e",
+    "A07": "4eaf92102e807b058d49e9c22f54928e815443dfbbf61a328da0de3d85ebf8a3",
+    "A08": "301d0235fda604816332b8da35db0746c35d0601a4ba47b52cfb402462a42461"
+  },
+  "evaluation_report_sha256": "b04b44dcececdb84b704339879515a9c9410db8aade46cab99e6008d010492ec",
+  "reference_scripts_sha256": "d2134a4e7177cb2ee1dab054b77006a2289dec06c0933a160584bd1d7765e493",
+  "reference_changes_required": false,
+  "independent_blinded_annotation": false,
+  "note": "Confirmação humana posterior à avaliação original de 14/11. Não é novo teste independente. Resultado original preservado; nenhuma mídia bruta incluída."
+}

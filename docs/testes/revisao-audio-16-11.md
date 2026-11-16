@@ -2,6 +2,8 @@
 
 Esta revisão encerra T16.1. Ela confere se o que foi realmente gravado coincide com os roteiros usados na avaliação. Não exige nova gravação, novo treinamento ou novo teste independente.
 
+**Concluída em 16/11:** Bruno confirmou “Conferi, tudo está correto.” no contexto da revisão de A05–A08. As referências foram mantidas; os quatro arquivos locais têm os mesmos hashes registrados na avaliação original. Evidência em [audio-revisao-manual-16-11.json](../../reports/audio-revisao-manual-16-11.json).
+
 ## Onde encontrar
 
 - **Referências:** [roteiros-audio.csv](../../data/scenarios/roteiros-audio.csv), linhas A05–A08, coluna `texto`. Abra no VS Code ou em outro editor de texto.
@@ -24,4 +26,4 @@ As gravações pessoais não estão no GitHub. Este procedimento deve ser feito 
 3. Se houver diferença, escreva o ID e as palavras efetivamente ouvidas, incluindo omissões ou acréscimos. Não substitua automaticamente o roteiro pela saída do modelo.
 4. Informe ao Codex se as quatro referências coincidem ou quais precisam de correção. A conclusão será registrada separadamente do resultado original de 14/11.
 
-Os quatro textos reconhecidos coincidiram com os roteiros na execução original. O WER zero foi calculado contra esses roteiros; a escuta humana ainda precisa ser confirmada. A conferência feita pelo próprio autor das gravações não equivale a uma anotação independente e cega por outro avaliador.
+Os quatro textos reconhecidos coincidiram com os roteiros na execução original. O WER zero foi calculado contra esses roteiros, cuja correspondência com as gravações foi confirmada por Bruno em 16/11. A conferência feita pelo próprio autor das gravações não equivale a uma anotação independente e cega por outro avaliador. O arquivo da avaliação original foi preservado com seu estado histórico; a confirmação posterior está no registro separado acima.

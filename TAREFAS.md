@@ -1,6 +1,6 @@
 # Acompanhamento da entrega
 
-Atualizado em **16/11/2026**, após revisar tecnicamente o relatório, preparar o roteiro e reproduzir os cenários no computador escolhido para a apresentação. A conferência das referências de áudio e a passagem ao grupo aguardam confirmação humana.
+Atualizado em **16/11/2026**, após confirmar as referências de áudio com Bruno, concluir a revisão do relatório, preparar o roteiro e reproduzir os cenários no computador escolhido para a apresentação. A passagem ao grupo aguarda confirmação humana.
 
 **Prazo: 17/11/2026, às 23h59 (Brasília).** Escopo: vídeo e áudio/transcrição, com execução local.
 
@@ -12,7 +12,7 @@ Este é o checklist principal do projeto. O [planejamento](docs/planejamento/pla
 | --- | --- | --- | --- |
 | 1. Preparar ambiente e amostras | Sábado, 14/11 | Concluída | — |
 | 2. Implementar análises e avaliar | Domingo, 15/11 | Concluída na rodada atual | Manter as limitações experimentais documentadas. |
-| 3. Integrar e preparar a entrega | Segunda, 16/11 | Relatório revisado tecnicamente, roteiro pronto e exemplos reproduzidos | Confirmar referências de áudio, fechar relatório com essa revisão e apresentar a solução aos colegas. |
+| 3. Integrar e preparar a entrega | Segunda, 16/11 | Referências confirmadas, relatório revisado, roteiro pronto e exemplos reproduzidos | Apresentar a solução aos colegas e confirmar que conseguem demonstrá-la. |
 | 4. Gravar e publicar a apresentação | Terça, 17/11, manhã/tarde | A fazer | Ensaiar, gravar, publicar e conferir acesso. |
 | 5. Conferir e submeter | Terça, 17/11, antes de 23h59 | A fazer | Validar links e arquivos e efetuar a entrega. |
 
@@ -20,7 +20,7 @@ Este é o checklist principal do projeto. O [planejamento](docs/planejamento/pla
 
 ## Próximas ações, em ordem
 
-Os pacotes de 14/11 e 15/11 estão concluídos. Em 16/11, o material técnico e o roteiro foram preparados; falta a conferência humana indicada abaixo. Os métodos e limites conhecidos foram mantidos, sem nova rodada de ajuste do modelo.
+Os pacotes de 14/11 e 15/11 estão concluídos. Em 16/11, o material técnico e o roteiro foram preparados e os áudios conferidos por Bruno; falta a passagem interna ao grupo. Os métodos e limites conhecidos foram mantidos, sem nova rodada de ajuste do modelo.
 
 ### Cronograma atualizado a partir do estado real
 
@@ -28,18 +28,18 @@ Os pacotes de 14/11 e 15/11 estão concluídos. Em 16/11, o material técnico e 
 | --- | --- | --- | --- |
 | **14/11, sábado — realizado** | Ambiente, dados, modelos, primeira implementação das análises, painel, avaliação inicial, relatório experimental e testes manuais. | Codex + Bruno | Primeira rodada concluída, feedback registrado e problemas conhecidos listados. |
 | **15/11, domingo — concluído** | Investigação, novo protocolo, comparação personalizada, correções de interface, validação manual e confirmação de alerta/exportação concluídos (T14/T15/T16/T26.1/T27). | Codex + Bruno | Rodada encerrada; evidências em docs/acompanhamento/fechamento-15-11.md. |
-| **16/11, segunda — material preparado; conferência humana em andamento** | Revisão técnica e PDF de dez páginas preparados (T28); roteiro pronto (T29); repositório público e quatro cenários conferidos neste computador (T31). Aguardar escuta A05–A08 e passagem ao grupo (T16.1/T30). | Codex: material e verificação; Bruno: escuta e revisão; grupo: passagem interna. | Confirmar os áudios, fechar a revisão do relatório e deixar os colegas preparados. |
+| **16/11, segunda — material e revisão concluídos; passagem ao grupo pendente** | Áudios A05–A08 confirmados por Bruno (T16.1); relatório/PDF de dez páginas revisados (T28); roteiro pronto (T29); repositório público e quatro cenários conferidos neste computador (T31). Aguardar passagem ao grupo (T30). | Codex: material e verificação; Bruno: escuta concluída; grupo: passagem interna. | Deixar os colegas preparados para a gravação. |
 | **17/11, terça — apresentação e entrega** | Ensaiar, gravar, publicar e conferir o vídeo; inserir link definitivo; revisar acesso e submeter (T32–T39). | Grupo: gravação/publicação; Bruno: conferência e submissão; Codex: apoio à documentação. | Vídeo de até 15 minutos, repositório e relatório acessíveis; submissão antes de 23h59, com margem. |
 
 O bloco de 15/11 foi encerrado. Priorizar a revisão final e estabilização em 16/11 para preservar a gravação e a submissão.
 
 ### Ação imediata
 
-1. **Bruno, 16/11:** ouvir A05–A08 conforme [guia de referências](docs/testes/revisao-audio-16-11.md) e informar coincidências ou diferenças (T16.1).
-2. **Bruno + Codex, 16/11:** registrar a confirmação recebida, ajustar a situação das referências no relatório/PDF e encerrar T28.
-3. **Bruno + grupo, 16/11:** usar o [roteiro](docs/apresentacao/roteiro-video.md) e o [guia do grupo](docs/apresentacao/guia-do-grupo.md) para a passagem interna; confirmar que os colegas conseguem demonstrar (T30).
+1. **Bruno + grupo, 16/11:** usar o [roteiro](docs/apresentacao/roteiro-video.md) e o [guia do grupo](docs/apresentacao/guia-do-grupo.md) para a passagem interna; confirmar que os colegas conseguem demonstrar (T30).
+2. **Grupo, 17/11:** ensaiar, gravar e publicar a apresentação; informar o link definitivo para atualizar os entregáveis (T32–T36).
+3. **Bruno + grupo, 17/11:** conferir acesso, arquivos e links e submeter antes das 23h59 (T37–T39).
 
-O trabalho técnico que não depende do teste manual pode continuar em paralelo. O feedback do usuário é necessário para encerrar a revisão manual, não para iniciar a investigação dos erros.
+A revisão manual das referências está concluída. A próxima confirmação humana refere-se à passagem da solução aos colegas; gravação, publicação e submissão permanecem pendentes.
 
 ## 1. Ambiente e dados — concluída em 14/11
 
@@ -64,7 +64,7 @@ Evidências: [ensaio inicial](docs/experimentos/ensaio-14-11.md), [calibração 
 - [x] T14 — **Codex, 15/11:** investigar os erros e registrar os experimentos em [rodada-15-11.md](docs/experimentos/rodada-15-11.md).
 - [x] T15 — **Codex, 15/11:** definir, implementar e avaliar tecnicamente a comparação personalizada; limitações e diferença de protocolo documentadas. A conferência manual da interface permanece em T27.
 - [x] T16 — **Bruno, 15/11:** confirmar que não percebeu outras divergências em A01–A04 além do erro de A04.
-- [ ] T16.1 — **Aguardando escuta de Bruno, 16/11:** conferir referências A05–A08; arquivos, textos e classes em [revisao-audio-16-11.md](docs/testes/revisao-audio-16-11.md). Disponibilidade para ouvir confirmada; conteúdo ainda sem confirmação.
+- [x] T16.1 — **Bruno, 16/11:** confirmou “Conferi, tudo está correto.” na revisão por escuta de A05–A08. Referências mantidas; [registro separado](reports/audio-revisao-manual-16-11.json) com hashes das gravações e da avaliação original. Revisão pelo próprio autor, sem anotação independente e cega.
 
 Evidências: [protocolo de vídeo](configs/video-protocol.json), [métricas de teste de vídeo](reports/video-test-metrics.json), [métricas de teste de áudio](reports/audio-teste-small.json) e `tests/`.
 
@@ -93,7 +93,7 @@ Evidências: [protocolo de vídeo](configs/video-protocol.json), [métricas de t
 - [x] T27.7 — **15/11:** receber quatro avaliações novas da versão personalizada. Calibração, repetição correta e repetição incorreta conferidas por Bruno; registros preservados em `reports/feedback`.
 - [x] T27.8 — **15/11:** mitigar conflito com tradução automática confirmado no navegador, preparar idioma inicial, evitar rerun nos downloads e verificar o fluxo/downloads em Chrome isolado. 28 testes unitários passaram. Evidências em [correcao-navegador-15-11.md](docs/operacao/correcao-navegador-15-11.md).
 - [x] T27.9 — **Bruno, 15/11:** confirmou “Tudo está funcionando depois das alterações”. As avaliações salvas foram preservadas.
-- [ ] T28 — **Revisão técnica concluída; aguardando T16.1:** relatório e PDF de dez páginas revisados em 16/11, com arquitetura, escopo, métricas, evidências e limites. Após confirmar as referências de áudio, atualizar a situação da escuta e regenerar o PDF.
+- [x] T28 — **16/11 · Bruno + Codex:** relatório e PDF de dez páginas revisados, com arquitetura, escopo, métricas, evidências e limites; confirmação de escuta A05–A08 incorporada. A inclusão do link definitivo do vídeo permanece em T36.
 - [x] T29 — **16/11 · Codex:** [roteiro de fala e demonstrações](docs/apresentacao/roteiro-video.md) pronto, com divisão proposta, controles reais e duração de 12–13 minutos. Quatro cenários reproduzidos no painel. A passagem humana aos colegas permanece em T30.
 - [ ] T30 — **A fazer · Bruno + grupo:** apresentar a solução internamente e conferir que os colegas conseguem demonstrá-la.
 - [x] T31 — **16/11 · Bruno + Codex:** Bruno confirmou este computador para a demonstração. Repositório público com HTTP 200 e branch remota conferida; quatro cenários reproduzidos por AppTest na instalação local existente. [Manifesto e saídas](reports/entrega/README.md). Não é instalação limpa ou novo teste de download no navegador.
@@ -101,7 +101,7 @@ Evidências: [protocolo de vídeo](configs/video-protocol.json), [métricas de t
 - [x] T31.2 — **15/11, conferido em 16/11:** primeiro envio concluído, commit `efdb6f7` na branch `main`; acesso público sem autenticação verificado em 16/11.
 - [x] T31.3 — **16/11:** evidências funcionais selecionadas para versionamento, em JSON/HTML, sem mídia bruta. A confirmação automática é identificada explicitamente; feedback humano anterior continua separado.
 
-Evidências: [painel](app.py), [guia de teste atual](docs/testes/teste-15-11.md), [relatório técnico atual](docs/relatorios/relatorio-tecnico.pdf), [reprodução](docs/operacao/reproducao.md) e [preparação de 16/11](docs/acompanhamento/preparacao-16-11.md). O PDF preserva as limitações experimentais; aguardamos a escuta para encerrar sua revisão.
+Evidências: [painel](app.py), [guia de teste atual](docs/testes/teste-15-11.md), [relatório técnico atual](docs/relatorios/relatorio-tecnico.pdf), [reprodução](docs/operacao/reproducao.md) e [preparação de 16/11](docs/acompanhamento/preparacao-16-11.md). A revisão está concluída; o PDF preserva as limitações experimentais e receberá o link do vídeo após publicação.
 
 ## 4. Apresentação — prevista para 17/11
 

@@ -36,7 +36,7 @@ As pastas de sessões e feedback completos são locais e não estão no GitHub. 
 
 **Vídeo da apresentação:** pendente de gravação e publicação em 17/11. Ao receber o link definitivo do YouTube/Vimeo, atualizar `presentation_url` em `configs/entrega.json`, esta linha do README e gerar novamente o relatório técnico. A entrega só se encerra após a conferência dos links e a submissão.
 
-Vídeo: 51 repetições de treino, 41 de validação e 42 de teste, com pessoas separadas. Áudio: A01–A04 para calibração e A05–A08 para a primeira avaliação reservada. No áudio reservado houve coincidência com os quatro roteiros, ainda sujeitos a conferência humana. Esses dados de teste já foram utilizados: futuras alterações não terão neles um teste independente novo.
+Vídeo: 51 repetições de treino, 41 de validação e 42 de teste, com pessoas separadas. Áudio: A01–A04 para calibração e A05–A08 para a primeira avaliação reservada. No áudio reservado houve coincidência com os quatro roteiros. Bruno confirmou essa correspondência por escuta em 16/11; o [registro da revisão](reports/audio-revisao-manual-16-11.json) é separado da avaliação original. A conferência foi feita pelo autor das gravações, sem anotação independente e cega. Esses dados de teste já foram utilizados: futuras alterações não terão neles um teste independente novo.
 
 ## Preparar em outro computador
 
