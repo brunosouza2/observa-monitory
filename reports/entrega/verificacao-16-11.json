@@ -1,0 +1,78 @@
+{
+  "checked_utc": "2026-11-16T22:38:28.814346+00:00",
+  "kind": "same_machine_functional_reproduction",
+  "python": "3.11.9",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "packages": {
+    "streamlit": "1.67.0",
+    "ultralytics": "8.4.212",
+    "faster-whisper": "1.2.1",
+    "scikit-learn": "1.9.1",
+    "jiwer": "4.0.0"
+  },
+  "classifier_sha256": "606402253e1a4cabb349d0ec4c8a985284b694815b75920b408170a5b525ed32",
+  "weights_sha256": {
+    "models/yolov8n-pose.pt": "c6fa93dd1ee4a2c18c900a45c1d864a1c6f7aba75d84f91648a30b7fb641d212",
+    "models/whisper-small/config.json": "b55496ac7940a7ae47d2c01eab40edfd8701feec1229d9cce3b40014383fb828",
+    "models/whisper-small/model.bin": "3e305921506d8872816023e4c273e75d2419fb89b24da97b4fe7bce14170d671",
+    "models/whisper-small/tokenizer.json": "fb7b63191e9bb045082c79fd742a3106a12c99513ab30df4a0d47fa6cb6fd0ab",
+    "models/whisper-small/vocabulary.txt": "34ce3fe1c5041027b3f8d42912270993f986dbc4bb34cf27f951e34a1e453913"
+  },
+  "cases": [
+    {
+      "case": "01-calibracao",
+      "video": "PM_001",
+      "repetition": "1",
+      "audio": "A01",
+      "movement_status": "calibracao",
+      "speech_status": "nao",
+      "acknowledged_utc": null,
+      "json": "01-calibracao.json",
+      "html": "01-calibracao.html",
+      "json_sha256": "92516593489760de5dc0ccc3099cebacaf5bc3cb65cf1e54c793b5d5a3f71c00"
+    },
+    {
+      "case": "02-sem-desvio",
+      "video": "PM_001",
+      "repetition": "2",
+      "audio": "A01",
+      "movement_status": "referencia",
+      "speech_status": "nao",
+      "acknowledged_utc": null,
+      "json": "02-sem-desvio.json",
+      "html": "02-sem-desvio.html",
+      "json_sha256": "5fcbec56396e991137641fc283587ee7bd3ddb8e2a24c278a56fa05e1852bfda"
+    },
+    {
+      "case": "03-alerta-confirmado",
+      "video": "PM_001",
+      "repetition": "6",
+      "audio": "A02",
+      "movement_status": "desvio",
+      "speech_status": "sim",
+      "acknowledged_utc": "2026-11-16T22:38:22.081905+00:00",
+      "json": "03-alerta-confirmado.json",
+      "html": "03-alerta-confirmado.html",
+      "json_sha256": "a5a8496c3ce5de49cb1a0997a2754e1dbb717e3af861719c50515b837e4ec372"
+    },
+    {
+      "case": "04-erro-conhecido-audio",
+      "video": "PM_001",
+      "repetition": "2",
+      "audio": "A04",
+      "movement_status": "referencia",
+      "speech_status": "contexto_passado",
+      "acknowledged_utc": null,
+      "json": "04-erro-conhecido-audio.json",
+      "html": "04-erro-conhecido-audio.html",
+      "json_sha256": "0640e9ffa244ab4450f4d30ab559cdf9f1644d4d9d52d8965c04dae551a9f965"
+    }
+  ],
+  "limitations": [
+    "Known development examples; not an independent performance test.",
+    "AppTest checks processing and export content, not an actual browser download.",
+    "Uses existing local installation and caches; not a clean installation check.",
+    "Acknowledgement in these examples is automated, not human feedback.",
+    "No raw recordings, videos or model weights included."
+  ]
+}

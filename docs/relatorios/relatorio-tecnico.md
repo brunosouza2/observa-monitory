@@ -1,4 +1,4 @@
-# Relatório técnico — revisão de 15/11/2026
+# Relatório técnico — revisão de 16/11/2026
 
 ## 1. Problema e escopo
 
@@ -8,6 +8,8 @@ A aplicação estima articulações, calcula medidas por repetição e compara o
 
 O objetivo é demonstrar processamento, avaliação e integração rastreável. A solução é experimental e opera sobre arquivos gravados. Não demonstra diagnóstico, benefício clínico ou garantia de tempo real. A segmentação das repetições é fornecida pelo dataset ou informada manualmente.
 
+O PDF original menciona cloud e outras frentes. O escopo atualizado informado pelo grupo permite execução local e duas modalidades. O áudio é analisado pelo conteúdo transcrito, sem classificador de alterações acústicas, fadiga ou disartria. Não foram implementados Azure, sinais vitais, prescrições ou envio de notificações a destinatários externos. A detecção de desvios de movimento é supervisionada pelos rótulos da base, e não uma detecção não supervisionada de anomalias.
+
 ## 2. Dados e histórico do experimento
 
 Vídeo: REHAB24-6, exercício 1, câmera 17, vista frontal, oito participantes e 134 repetições. Os vídeos foram obtidos por intervalos HTTP do arquivo oficial e verificados por tamanho e CRC. Fonte: https://zenodo.org/records/13305826. Os termos indicados são de uso acadêmico ou pesquisa não comercial, com citação dos autores.
@@ -16,7 +18,7 @@ Em 14/11, o experimento original separou pessoas: treino 1–4 (51 repetições)
 
 Em 15/11, todos esses exemplos passaram a ser dados de desenvolvimento. Os novos experimentos são retrospectivos; não possuem um novo teste inédito. Essa distinção impede apresentar a diferença entre F1 de protocolos diferentes como ganho confirmado de generalização.
 
-Áudio: oito gravações próprias em português, A01–A04 para calibração e A05–A08 na avaliação reservada de 14/11. Referências são os roteiros. Em 15/11 o usuário confirmou não ter percebido divergências adicionais na calibração, além do erro conhecido em A04. As referências de A05–A08 ainda devem ser conferidas por escuta antes do fechamento final.
+Áudio: oito gravações próprias em português, A01–A04 para calibração e A05–A08 na avaliação reservada de 14/11. Referências são os roteiros em data/scenarios/roteiros-audio.csv. Em 15/11 o usuário confirmou não ter percebido divergências adicionais na calibração, além do erro conhecido em A04. As referências de A05–A08 ainda devem ser conferidas por escuta antes do fechamento final. O procedimento está em docs/testes/revisao-audio-16-11.md; o WER informado continua sendo calculado contra os roteiros.
 
 ## 3. Arquitetura e modelos
 
@@ -40,7 +42,7 @@ Laço externo: deixar uma pessoa inteira de fora por vez. Laço interno: compara
 
 Depois da avaliação, o modelo de demonstração é treinado com todas as consultas de desenvolvimento e referências. Os resultados mostrados no painel são testes funcionais sobre exemplos conhecidos; não são as predições fora de treino usadas nas métricas. O experimento é retrospectivo, planejado após observar a limitação de v1, e requer confirmação futura com novos participantes.
 
-Nos exemplos PM_001, a repetição 1 é apoio. O painel a marca como calibração e não a classifica; intervalos próprios que se sobreponham à referência também são marcados assim. A repetição 2 permite inspecionar uma execução correta distinta.
+Nos exemplos PM_001, a repetição 1 é apoio. O painel a marca como calibração e não a classifica; intervalos próprios que se sobreponham à referência também são marcados assim. A repetição 2 permite inspecionar uma execução correta distinta. A repetição 6 é sinalizada pelo modelo final do painel, mas foi falso negativo na predição externa sem ajuste nas consultas dessa pessoa. É um exemplo concreto da diferença entre demonstração e avaliação.
 
 ## 5. Resultados medidos
 
@@ -52,9 +54,9 @@ Experimento personalizado retrospectivo: 126 consultas de oito pessoas, mais oit
 
 Ainda houve 21 desvios perdidos e quatro falsos alertas. O participante 3 teve F1 zero; a variação entre pessoas deve ser mostrada. Portanto, o resultado é uma evidência exploratória condicional, não validação clínica ou garantia para uma pessoa nova. O protocolo, a quantidade de consultas e a calibração adicional diferem do primeiro teste de 14/11.
 
-Áudio reservado de 14/11: quatro arquivos, WER 0.00% em relação aos roteiros e concordância textual 100%. Amostra pequena e de um contexto de gravação. O glossário geral testado em 15/11 não melhorou A04: WER de calibração 7.14%, com a união sentidor ainda presente. O glossário não foi adotado.
+Áudio reservado de 14/11: quatro arquivos, 30 palavras de referência, WER 0.00% em relação aos roteiros e concordância das classes textuais 100% (4/4). A normalização remove pontuação, ignora maiúsculas e compacta espaços, preservando acentos. Amostra pequena e de um contexto de gravação. O glossário geral testado em 15/11 não melhorou A04: WER de calibração 7.14%, com a união sentidor ainda presente. O glossário não foi adotado.
 
-Verificações de código incluem 28 testes de geometria, contexto, qualidade, metadados de idioma, preservação dos artefatos v1, exclusão das referências das métricas, ausência do rótulo da consulta na decisão, reprodução das referências e igualdade entre JSON e scikit-learn. O teste do painel cobre análise, confirmação persistida e feedback separado. Um Chrome isolado verificou metadados ativos, processamento, confirmação e downloads reais de JSON/HTML sem exceções JavaScript. O usuário confirmou tradução automática ativa ao relatar um erro removeChild; foram adicionados metadados de português/não tradução e downloads sem rerun. A reconferência na aba pessoal é registrada no checklist.
+Verificações de código incluem 28 testes de geometria, contexto, qualidade, metadados de idioma, preservação dos artefatos v1, exclusão das referências das métricas, ausência do rótulo da consulta na decisão, reprodução das referências e igualdade entre JSON e scikit-learn. Os 28 passaram novamente em 16/11. O teste do painel cobre análise, confirmação persistida e feedback separado. Em 15/11, um Chrome isolado verificou metadados ativos, processamento, confirmação e downloads reais de JSON/HTML sem exceções JavaScript. Bruno confirmou também o recebimento e a abertura dos dois arquivos na aba pessoal após o tratamento do conflito de tradução automática. A reprodução funcional de 16/11 está em reports/entrega/verificacao-16-11.json.
 
 ## 6. Fluxo de alerta, revisão e limitações
 
@@ -70,12 +72,24 @@ Próxima investigação: novos participantes reservados, qualidade de pose, dete
 
 ## 7. Reprodução e preparação da entrega
 
-Abrir o painel: powershell -NoProfile -ExecutionPolicy Bypass -File .\iniciar-painel.ps1. URL local: http://127.0.0.1:8501. Instruções de teste: docs/testes/teste-15-11.md. Checklist: TAREFAS.md.
+Repositório público: https://github.com/brunosouza2/observa-monitory. Abrir o painel neste computador: powershell -NoProfile -ExecutionPolicy Bypass -File .\iniciar-painel.ps1. URL local: http://127.0.0.1:8501. Instruções de teste: docs/testes/teste-15-11.md. Checklist: TAREFAS.md.
 
 Reproduzir experimentos: python scripts/experimento_movimento_v2.py e depois python scripts/experimento_referencia.py, com caches de pose já obtidos. A obtenção e a extração originais estão em docs/operacao/reproducao.md. Resultados novos em reports/v2; artefatos em configs/movement-reference-v2.json e configs/movement-references-v2.json. Gerar este documento: python scripts/gerar_relatorio_tecnico.py.
 
 O relatório original foi arquivado em docs/historico/relatorio-tecnico-14-11.md e .pdf. Nenhum resultado original é substituído pelas novas métricas. Não comparar 0,39 e 0,79 como se o teste, a calibração e as pessoas de treino fossem idênticos.
 
-Antes da entrega: revisar os roteiros e o PDF com o grupo, conferir máquina da apresentação, disponibilizar repositório remoto e publicar vídeo de até 15 minutos no YouTube ou Vimeo. Link da apresentação: pendente. Recomenda-se apresentar fluxo, referência de calibração, acertos e erros, métricas e limitações.
+Em outro computador, instalar Python 3.11 e dependências fixadas, baixar os oito vídeos selecionados, YOLOv8n-Pose e Whisper small conforme README. Gravações pessoais precisam ser fornecidas separadamente ou substituídas por uploads próprios. O clone contém código, configurações, relatório e resultados, mas não dados brutos, pesos ou ambiente Python. A reprodução de 16/11 usa a instalação local já preparada e caches existentes; não comprova instalação limpa em outra máquina.
+
+Evidências selecionadas em reports/entrega: calibração, consulta correta distinta, possível desvio com fala afirmativa e confirmação, e erro conhecido de transcrição com aviso. Há JSON/HTML e manifesto de ambiente e hashes. São verificações funcionais automatizadas: a confirmação nelas foi acionada pelo script, sem representar feedback humano. Os arquivos não incluem mídia bruta. Regenerar com python scripts/preparar_demonstracao.py.
+
+Roteiro e preparação dos colegas: docs/apresentacao/roteiro-video.md e docs/apresentacao/guia-do-grupo.md. A demonstração será neste computador. A passagem interna e o ensaio pelo grupo exigem confirmação humana. Publicar vídeo de até 15 minutos no YouTube ou Vimeo e conferir acesso. Link da apresentação: pendente de gravação e publicação em 17/11/2026. Prazo de submissão: 17/11/2026, às 23h59, horário de Brasília.
 
 Fontes: REHAB24-6 — https://zenodo.org/records/13305826; YOLOv8 — https://docs.ultralytics.com/models/yolov8/; faster-whisper — https://github.com/SYSTRAN/faster-whisper; scikit-learn LeaveOneGroupOut — https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.LeaveOneGroupOut.html. As fontes possuem seus próprios termos e licenças.
+
+## Figuras
+
+- [Arquitetura implementada](arquitetura.md) (diagrama também incluído no PDF).
+
+![Matriz de confusão personalizada: 54 TN, 4 FP, 21 FN e 47 TP](../../reports/v2/figures/matriz-personalizada.png)
+
+![F1 no mesmo protocolo: personalizado e sinalizar tudo](../../reports/v2/figures/comparacao-personalizada.png)

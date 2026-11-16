@@ -1,0 +1,541 @@
+{
+  "id": "bf2cf8a845e2",
+  "created_utc": "2026-11-16T22:38:20.785035+00:00",
+  "video": {
+    "model_version": "reference-v2",
+    "decision_threshold": 0.5,
+    "calibration": {
+      "id": "PM_001-rep-1",
+      "person_id": "1",
+      "source_sha256": "92bdac73d80692914749701cc3adac91eb56eeb9a275d12f2bec93e08325dfd8",
+      "start": 4.333333333333333,
+      "end": 10.8,
+      "features": [
+        129.56698608398438,
+        106.8298282623291,
+        154.29923400878906,
+        2.482963705062866,
+        0.11129422336816788,
+        6.466666666666668,
+        152.9848846435547,
+        155.4695587158203,
+        2.351687860488892,
+        0.1127558931708336,
+        0.5151515151515151,
+        0.0,
+        73.85186386108425,
+        0.41237113402061853,
+        7.912353515625
+      ],
+      "provenance": "dataset-labelled correct support, excluded from evaluation"
+    },
+    "classifier_artifact_sha256": "606402253e1a4cabb349d0ec4c8a985284b694815b75920b408170a5b525ed32",
+    "source": "PM_001-Camera17-30fps.mp4",
+    "sha256": "92bdac73d80692914749701cc3adac91eb56eeb9a275d12f2bec93e08325dfd8",
+    "exercise": "abducao_braco_direito_frontal",
+    "feature_names": [
+      "abduction_p90",
+      "abduction_range",
+      "elbow_p10",
+      "trunk_p90",
+      "shoulder_asymmetry_p90",
+      "duration",
+      "active_elbow_p10",
+      "active_elbow_median",
+      "active_trunk_p90",
+      "active_asymmetry_p90",
+      "active_fraction",
+      "active_bent_fraction",
+      "abduction_speed_p90",
+      "peak_relative_time",
+      "active_elbow_range"
+    ],
+    "repetitions": [
+      {
+        "start": 56.333333333333336,
+        "end": 64.66666666666667,
+        "coverage": 1.0,
+        "status": "desvio",
+        "features": [
+          119.53538513183594,
+          97.46095790863038,
+          160.3027130126953,
+          2.559420180320739,
+          0.15561193823814393,
+          8.333333333333336,
+          165.27239837646485,
+          172.96671295166016,
+          1.4233753800392153,
+          0.15994689613580704,
+          0.47619047619047616,
+          0.0,
+          51.50371551513599,
+          0.5359999999999993,
+          14.02428741455077
+        ],
+        "deviation_score": 0.6067910359671025,
+        "reference_id": "PM_001-rep-1",
+        "decision_threshold": 0.5
+      }
+    ],
+    "processing_seconds": 27.80138890002854,
+    "measurements": [
+      {
+        "frame": 1692,
+        "time": 56.4,
+        "valid": true,
+        "abduction": 24.627168655395508,
+        "elbow": 162.05027770996094,
+        "trunk": 1.66118586063385,
+        "shoulder_asymmetry": 0.01684259995818138
+      },
+      {
+        "frame": 1698,
+        "time": 56.6,
+        "valid": true,
+        "abduction": 25.916790008544922,
+        "elbow": 161.83680725097656,
+        "trunk": 1.127264380455017,
+        "shoulder_asymmetry": 0.008268477395176888
+      },
+      {
+        "frame": 1704,
+        "time": 56.8,
+        "valid": true,
+        "abduction": 30.579565048217773,
+        "elbow": 160.0379180908203,
+        "trunk": 0.7722775936126709,
+        "shoulder_asymmetry": 0.0015866055618971586
+      },
+      {
+        "frame": 1710,
+        "time": 57.0,
+        "valid": true,
+        "abduction": 35.01488494873047,
+        "elbow": 164.41029357910156,
+        "trunk": 0.24628834426403046,
+        "shoulder_asymmetry": 0.005481902044266462
+      },
+      {
+        "frame": 1716,
+        "time": 57.2,
+        "valid": true,
+        "abduction": 36.82014846801758,
+        "elbow": 167.67616271972656,
+        "trunk": 0.02797645330429077,
+        "shoulder_asymmetry": 0.011345207691192627
+      },
+      {
+        "frame": 1722,
+        "time": 57.4,
+        "valid": true,
+        "abduction": 44.798336029052734,
+        "elbow": 165.54161071777344,
+        "trunk": 1.0505295991897583,
+        "shoulder_asymmetry": 0.01851879432797432
+      },
+      {
+        "frame": 1728,
+        "time": 57.6,
+        "valid": true,
+        "abduction": 48.95792770385742,
+        "elbow": 166.3045196533203,
+        "trunk": 1.1968125104904175,
+        "shoulder_asymmetry": 0.027220379561185837
+      },
+      {
+        "frame": 1734,
+        "time": 57.8,
+        "valid": true,
+        "abduction": 51.137001037597656,
+        "elbow": 165.28753662109375,
+        "trunk": 1.0858848094940186,
+        "shoulder_asymmetry": 0.032617807388305664
+      },
+      {
+        "frame": 1740,
+        "time": 58.0,
+        "valid": true,
+        "abduction": 57.478694915771484,
+        "elbow": 168.1612091064453,
+        "trunk": 1.2922548055648804,
+        "shoulder_asymmetry": 0.03272236883640289
+      },
+      {
+        "frame": 1746,
+        "time": 58.2,
+        "valid": true,
+        "abduction": 65.59850311279297,
+        "elbow": 166.73997497558594,
+        "trunk": 1.289981484413147,
+        "shoulder_asymmetry": 0.04692569747567177
+      },
+      {
+        "frame": 1752,
+        "time": 58.4,
+        "valid": true,
+        "abduction": 70.80148315429688,
+        "elbow": 171.22352600097656,
+        "trunk": 1.0660613775253296,
+        "shoulder_asymmetry": 0.05780330300331116
+      },
+      {
+        "frame": 1758,
+        "time": 58.6,
+        "valid": true,
+        "abduction": 74.09632873535156,
+        "elbow": 178.18629455566406,
+        "trunk": 0.8855862021446228,
+        "shoulder_asymmetry": 0.07666211575269699
+      },
+      {
+        "frame": 1764,
+        "time": 58.8,
+        "valid": true,
+        "abduction": 81.90005493164062,
+        "elbow": 176.07025146484375,
+        "trunk": 0.7241573929786682,
+        "shoulder_asymmetry": 0.09941060841083527
+      },
+      {
+        "frame": 1770,
+        "time": 59.0,
+        "valid": true,
+        "abduction": 86.13607025146484,
+        "elbow": 176.29794311523438,
+        "trunk": 1.02316415309906,
+        "shoulder_asymmetry": 0.11083342880010605
+      },
+      {
+        "frame": 1776,
+        "time": 59.2,
+        "valid": true,
+        "abduction": 89.58610534667969,
+        "elbow": 179.27772521972656,
+        "trunk": 0.29475054144859314,
+        "shoulder_asymmetry": 0.11721684038639069
+      },
+      {
+        "frame": 1782,
+        "time": 59.4,
+        "valid": true,
+        "abduction": 91.74829864501953,
+        "elbow": 168.35133361816406,
+        "trunk": 0.048456642776727676,
+        "shoulder_asymmetry": 0.11229954659938812
+      },
+      {
+        "frame": 1788,
+        "time": 59.6,
+        "valid": true,
+        "abduction": 105.37964630126953,
+        "elbow": 179.4673309326172,
+        "trunk": 0.5517840385437012,
+        "shoulder_asymmetry": 0.1335715651512146
+      },
+      {
+        "frame": 1794,
+        "time": 59.8,
+        "valid": true,
+        "abduction": 110.27105712890625,
+        "elbow": 179.79727172851562,
+        "trunk": 0.2541089653968811,
+        "shoulder_asymmetry": 0.14759504795074463
+      },
+      {
+        "frame": 1800,
+        "time": 60.0,
+        "valid": true,
+        "abduction": 114.5383071899414,
+        "elbow": 174.00401306152344,
+        "trunk": 0.7354186773300171,
+        "shoulder_asymmetry": 0.16291683912277222
+      },
+      {
+        "frame": 1806,
+        "time": 60.2,
+        "valid": true,
+        "abduction": 118.57215881347656,
+        "elbow": 170.1304931640625,
+        "trunk": 0.7063753008842468,
+        "shoulder_asymmetry": 0.1591978818178177
+      },
+      {
+        "frame": 1812,
+        "time": 60.4,
+        "valid": true,
+        "abduction": 121.82136535644531,
+        "elbow": 166.37405395507812,
+        "trunk": 1.004246711730957,
+        "shoulder_asymmetry": 0.16563087701797485
+      },
+      {
+        "frame": 1818,
+        "time": 60.6,
+        "valid": true,
+        "abduction": 121.72760009765625,
+        "elbow": 165.38409423828125,
+        "trunk": 1.4113916158676147,
+        "shoulder_asymmetry": 0.15961690247058868
+      },
+      {
+        "frame": 1824,
+        "time": 60.8,
+        "valid": true,
+        "abduction": 121.84782409667969,
+        "elbow": 165.3419647216797,
+        "trunk": 1.7506654262542725,
+        "shoulder_asymmetry": 0.15588045120239258
+      },
+      {
+        "frame": 1830,
+        "time": 61.0,
+        "valid": true,
+        "abduction": 120.56378936767578,
+        "elbow": 164.64630126953125,
+        "trunk": 1.5312292575836182,
+        "shoulder_asymmetry": 0.153195321559906
+      },
+      {
+        "frame": 1836,
+        "time": 61.2,
+        "valid": true,
+        "abduction": 119.64241027832031,
+        "elbow": 164.52967834472656,
+        "trunk": 1.0795592069625854,
+        "shoulder_asymmetry": 0.14711639285087585
+      },
+      {
+        "frame": 1842,
+        "time": 61.4,
+        "valid": true,
+        "abduction": 117.59444427490234,
+        "elbow": 168.2008514404297,
+        "trunk": 0.4965343475341797,
+        "shoulder_asymmetry": 0.14046676456928253
+      },
+      {
+        "frame": 1848,
+        "time": 61.6,
+        "valid": true,
+        "abduction": 113.29737091064453,
+        "elbow": 172.38192749023438,
+        "trunk": 0.1251145303249359,
+        "shoulder_asymmetry": 0.1321776956319809
+      },
+      {
+        "frame": 1854,
+        "time": 61.8,
+        "valid": true,
+        "abduction": 106.31000518798828,
+        "elbow": 173.55149841308594,
+        "trunk": 0.05934702232480049,
+        "shoulder_asymmetry": 0.1107727661728859
+      },
+      {
+        "frame": 1860,
+        "time": 62.0,
+        "valid": true,
+        "abduction": 96.19373321533203,
+        "elbow": 172.21229553222656,
+        "trunk": 0.5692389607429504,
+        "shoulder_asymmetry": 0.10861210525035858
+      },
+      {
+        "frame": 1866,
+        "time": 62.2,
+        "valid": true,
+        "abduction": 87.13507843017578,
+        "elbow": 175.97706604003906,
+        "trunk": 0.7890711426734924,
+        "shoulder_asymmetry": 0.09692275524139404
+      },
+      {
+        "frame": 1872,
+        "time": 62.4,
+        "valid": true,
+        "abduction": 76.37625885009766,
+        "elbow": 175.9221954345703,
+        "trunk": 1.227804183959961,
+        "shoulder_asymmetry": 0.04753345996141434
+      },
+      {
+        "frame": 1878,
+        "time": 62.6,
+        "valid": true,
+        "abduction": 64.83253479003906,
+        "elbow": 177.3377227783203,
+        "trunk": 1.7831182479858398,
+        "shoulder_asymmetry": 0.029383087530732155
+      },
+      {
+        "frame": 1884,
+        "time": 62.8,
+        "valid": true,
+        "abduction": 52.017826080322266,
+        "elbow": 178.06558227539062,
+        "trunk": 1.374158263206482,
+        "shoulder_asymmetry": 0.011141913942992687
+      },
+      {
+        "frame": 1890,
+        "time": 63.0,
+        "valid": true,
+        "abduction": 42.1275520324707,
+        "elbow": 179.0718994140625,
+        "trunk": 1.4958019256591797,
+        "shoulder_asymmetry": 0.001979415537789464
+      },
+      {
+        "frame": 1896,
+        "time": 63.2,
+        "valid": true,
+        "abduction": 31.82680892944336,
+        "elbow": 179.4394073486328,
+        "trunk": 1.2497614622116089,
+        "shoulder_asymmetry": 0.014270283281803131
+      },
+      {
+        "frame": 1902,
+        "time": 63.4,
+        "valid": true,
+        "abduction": 26.282939910888672,
+        "elbow": 169.63739013671875,
+        "trunk": 1.9443058967590332,
+        "shoulder_asymmetry": 0.023947851732373238
+      },
+      {
+        "frame": 1908,
+        "time": 63.6,
+        "valid": true,
+        "abduction": 22.052940368652344,
+        "elbow": 162.95062255859375,
+        "trunk": 2.2009596824645996,
+        "shoulder_asymmetry": 0.021407634019851685
+      },
+      {
+        "frame": 1914,
+        "time": 63.8,
+        "valid": true,
+        "abduction": 21.226932525634766,
+        "elbow": 160.92709350585938,
+        "trunk": 2.5992491245269775,
+        "shoulder_asymmetry": 0.02518722601234913
+      },
+      {
+        "frame": 1920,
+        "time": 64.0,
+        "valid": true,
+        "abduction": 22.07142448425293,
+        "elbow": 159.9814910888672,
+        "trunk": 3.1066489219665527,
+        "shoulder_asymmetry": 0.030306152999401093
+      },
+      {
+        "frame": 1926,
+        "time": 64.2,
+        "valid": true,
+        "abduction": 22.101451873779297,
+        "elbow": 159.84567260742188,
+        "trunk": 2.861222982406616,
+        "shoulder_asymmetry": 0.032314732670784
+      },
+      {
+        "frame": 1932,
+        "time": 64.4,
+        "valid": true,
+        "abduction": 21.984821319580078,
+        "elbow": 160.21273803710938,
+        "trunk": 2.9877991676330566,
+        "shoulder_asymmetry": 0.03126415237784386
+      },
+      {
+        "frame": 1938,
+        "time": 64.6,
+        "valid": true,
+        "abduction": 21.7587833404541,
+        "elbow": 160.23333740234375,
+        "trunk": 2.8174445629119873,
+        "shoulder_asymmetry": 0.025933856144547462
+      }
+    ],
+    "expected_dataset_label": "incorreta"
+  },
+  "audio": {
+    "sha256": "958a07a73d78068317e0df0b832e916fe0970d0f453686f6efc59d3eb73bc002",
+    "language": "pt",
+    "vad_filter": true,
+    "beam_size": 5,
+    "source": "A02.m4a",
+    "model": "Whisper small multilingual CPU int8",
+    "transcript": "Sinto dor no braço quando levanto a mão.",
+    "segments": [
+      {
+        "start": 0.56,
+        "end": 3.56,
+        "text": "Sinto dor no braço quando levanto a mão."
+      }
+    ],
+    "analysis": {
+      "attention": "sim",
+      "evidence": [
+        {
+          "expression": "dor",
+          "context": "sinto dor no braco quando levanto a mao",
+          "status": "atual"
+        }
+      ],
+      "review_notes": [],
+      "original_text": "Sinto dor no braço quando levanto a mão."
+    },
+    "status": "transcrito",
+    "expected_script_label": "sim",
+    "script_reference": "Sinto dor no braço quando levanto a mão."
+  },
+  "alert": {
+    "events": [
+      {
+        "modality": "audio",
+        "start": 0.56,
+        "end": 3.56,
+        "message": "Expressao de atencao na fala",
+        "evidence": "Sinto dor no braço quando levanto a mão."
+      },
+      {
+        "modality": "video",
+        "start": 56.333333333333336,
+        "end": 64.66666666666667,
+        "message": "Desvio no movimento",
+        "evidence": {
+          "abduction_p90": 119.53538513183594,
+          "abduction_range": 97.46095790863038,
+          "elbow_p10": 160.3027130126953,
+          "trunk_p90": 2.559420180320739,
+          "shoulder_asymmetry_p90": 0.15561193823814393,
+          "duration": 8.333333333333336,
+          "active_elbow_p10": 165.27239837646485,
+          "active_elbow_median": 172.96671295166016,
+          "active_trunk_p90": 1.4233753800392153,
+          "active_asymmetry_p90": 0.15994689613580704,
+          "active_fraction": 0.47619047619047616,
+          "active_bent_fraction": 0.0,
+          "abduction_speed_p90": 51.50371551513599,
+          "peak_relative_time": 0.5359999999999993,
+          "active_elbow_range": 14.02428741455077
+        }
+      }
+    ],
+    "aligned": false,
+    "combined": false,
+    "priority": "revisar_eventos",
+    "note": "Fontes independentes: cenario composto, sem sincronizacao clinica."
+  },
+  "acknowledged_utc": "2026-11-16T22:38:22.081905+00:00",
+  "evidence_metadata": {
+    "kind": "automated_functional_development_check",
+    "source_paths": "basenames_only",
+    "acknowledgement": "automated_button_click_when_present",
+    "not_independent_performance_evaluation": true,
+    "contains_raw_media": false
+  }
+}

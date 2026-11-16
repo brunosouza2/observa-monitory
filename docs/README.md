@@ -9,6 +9,7 @@ O andamento atual está em [TAREFAS.md](../TAREFAS.md). Os documentos abaixo est
 | [experimentos/](experimentos/) | Ensaios, avaliações e resultados das rodadas de desenvolvimento. |
 | [operacao/](operacao/) | Reprodução do projeto e solução de problemas da interface. |
 | [relatorios/](relatorios/) | Relatório técnico atual em Markdown e PDF. |
+| [apresentacao/](apresentacao/) | Roteiro do vídeo e passagem da solução aos colegas. |
 | [acompanhamento/](acompanhamento/) | Auditoria e fechamento das tarefas por dia. |
 | [historico/](historico/) | Versões anteriores do relatório técnico. |
 
@@ -16,11 +17,17 @@ O andamento atual está em [TAREFAS.md](../TAREFAS.md). Os documentos abaixo est
 
 - [Planejamento da Fase 4](planejamento/planejamento-fase-4.md)
 - [Teste atual do painel — 15/11](testes/teste-15-11.md)
+- [Conferência dos áudios A05–A08 — 16/11](testes/revisao-audio-16-11.md)
 - [Reprodução e instalação](operacao/reproducao.md)
 - [Correção do erro de tradução do navegador](operacao/correcao-navegador-15-11.md)
 - [Experimentos de 15/11](experimentos/rodada-15-11.md)
 - [Relatório técnico atual — PDF](relatorios/relatorio-tecnico.pdf)
 - [Relatório técnico atual — Markdown](relatorios/relatorio-tecnico.md)
+- [Arquitetura implementada](relatorios/arquitetura.md)
+- [Roteiro do vídeo](apresentacao/roteiro-video.md)
+- [Guia para o grupo](apresentacao/guia-do-grupo.md)
+- [Evidências selecionadas da demonstração](../reports/entrega/README.md)
+- [Preparação e pendências de 16/11](acompanhamento/preparacao-16-11.md)
 - [Fechamento de 15/11](acompanhamento/fechamento-15-11.md)
 - [Auditoria de 15/11](acompanhamento/auditoria-15-11.md)
 

@@ -1,0 +1,424 @@
+{
+  "id": "d70a9815f227",
+  "created_utc": "2026-11-16T22:38:07.066939+00:00",
+  "video": {
+    "model_version": "reference-v2",
+    "decision_threshold": 0.5,
+    "calibration": {
+      "id": "PM_001-rep-1",
+      "person_id": "1",
+      "source_sha256": "92bdac73d80692914749701cc3adac91eb56eeb9a275d12f2bec93e08325dfd8",
+      "start": 4.333333333333333,
+      "end": 10.8,
+      "features": [
+        129.56698608398438,
+        106.8298282623291,
+        154.29923400878906,
+        2.482963705062866,
+        0.11129422336816788,
+        6.466666666666668,
+        152.9848846435547,
+        155.4695587158203,
+        2.351687860488892,
+        0.1127558931708336,
+        0.5151515151515151,
+        0.0,
+        73.85186386108425,
+        0.41237113402061853,
+        7.912353515625
+      ],
+      "provenance": "dataset-labelled correct support, excluded from evaluation"
+    },
+    "classifier_artifact_sha256": "606402253e1a4cabb349d0ec4c8a985284b694815b75920b408170a5b525ed32",
+    "source": "PM_001-Camera17-30fps.mp4",
+    "sha256": "92bdac73d80692914749701cc3adac91eb56eeb9a275d12f2bec93e08325dfd8",
+    "exercise": "abducao_braco_direito_frontal",
+    "feature_names": [
+      "abduction_p90",
+      "abduction_range",
+      "elbow_p10",
+      "trunk_p90",
+      "shoulder_asymmetry_p90",
+      "duration",
+      "active_elbow_p10",
+      "active_elbow_median",
+      "active_trunk_p90",
+      "active_asymmetry_p90",
+      "active_fraction",
+      "active_bent_fraction",
+      "abduction_speed_p90",
+      "peak_relative_time",
+      "active_elbow_range"
+    ],
+    "repetitions": [
+      {
+        "start": 4.333333333333333,
+        "end": 10.8,
+        "coverage": 1.0,
+        "status": "calibracao",
+        "features": [
+          129.56698608398438,
+          106.8298282623291,
+          154.29923400878906,
+          2.482963705062866,
+          0.11129422336816788,
+          6.466666666666668,
+          152.9848846435547,
+          155.4695587158203,
+          2.351687860488892,
+          0.1127558931708336,
+          0.5151515151515151,
+          0.0,
+          73.85186386108425,
+          0.41237113402061853,
+          7.912353515625
+        ],
+        "deviation_score": null,
+        "reference_id": "PM_001-rep-1",
+        "decision_threshold": 0.5,
+        "reason": "Esta execução sobrepõe a referência de calibração; não é uma predição avaliada."
+      }
+    ],
+    "processing_seconds": 27.80138890002854,
+    "measurements": [
+      {
+        "frame": 132,
+        "time": 4.4,
+        "valid": true,
+        "abduction": 23.00385856628418,
+        "elbow": 161.7758026123047,
+        "trunk": 1.6637755632400513,
+        "shoulder_asymmetry": 0.02215692028403282
+      },
+      {
+        "frame": 138,
+        "time": 4.6,
+        "valid": true,
+        "abduction": 27.52815818786621,
+        "elbow": 169.91970825195312,
+        "trunk": 1.663893222808838,
+        "shoulder_asymmetry": 0.026960158720612526
+      },
+      {
+        "frame": 144,
+        "time": 4.8,
+        "valid": true,
+        "abduction": 37.79652404785156,
+        "elbow": 178.18446350097656,
+        "trunk": 1.6902650594711304,
+        "shoulder_asymmetry": 0.02272728644311428
+      },
+      {
+        "frame": 150,
+        "time": 5.0,
+        "valid": true,
+        "abduction": 50.818748474121094,
+        "elbow": 179.11972045898438,
+        "trunk": 2.2687437534332275,
+        "shoulder_asymmetry": 0.001509915105998516
+      },
+      {
+        "frame": 156,
+        "time": 5.2,
+        "valid": true,
+        "abduction": 65.6999740600586,
+        "elbow": 172.7584991455078,
+        "trunk": 2.98616099357605,
+        "shoulder_asymmetry": 0.02516401931643486
+      },
+      {
+        "frame": 162,
+        "time": 5.4,
+        "valid": true,
+        "abduction": 77.84756469726562,
+        "elbow": 170.1873321533203,
+        "trunk": 2.507723808288574,
+        "shoulder_asymmetry": 0.025447040796279907
+      },
+      {
+        "frame": 168,
+        "time": 5.6,
+        "valid": true,
+        "abduction": 92.67523193359375,
+        "elbow": 166.8708953857422,
+        "trunk": 2.669977903366089,
+        "shoulder_asymmetry": 0.07481860369443893
+      },
+      {
+        "frame": 174,
+        "time": 5.8,
+        "valid": true,
+        "abduction": 105.23332977294922,
+        "elbow": 163.87060546875,
+        "trunk": 2.0327842235565186,
+        "shoulder_asymmetry": 0.08896134048700333
+      },
+      {
+        "frame": 180,
+        "time": 6.0,
+        "valid": true,
+        "abduction": 114.82219696044922,
+        "elbow": 158.9149932861328,
+        "trunk": 2.1255040168762207,
+        "shoulder_asymmetry": 0.0960187017917633
+      },
+      {
+        "frame": 186,
+        "time": 6.2,
+        "valid": true,
+        "abduction": 121.47846984863281,
+        "elbow": 154.2628936767578,
+        "trunk": 2.383923292160034,
+        "shoulder_asymmetry": 0.10689273476600647
+      },
+      {
+        "frame": 192,
+        "time": 6.4,
+        "valid": true,
+        "abduction": 124.14909362792969,
+        "elbow": 154.41456604003906,
+        "trunk": 1.9926249980926514,
+        "shoulder_asymmetry": 0.11849599331617355
+      },
+      {
+        "frame": 198,
+        "time": 6.6,
+        "valid": true,
+        "abduction": 127.9979019165039,
+        "elbow": 156.1898651123047,
+        "trunk": 2.008765459060669,
+        "shoulder_asymmetry": 0.11356765031814575
+      },
+      {
+        "frame": 204,
+        "time": 6.8,
+        "valid": true,
+        "abduction": 130.71160888671875,
+        "elbow": 155.5015411376953,
+        "trunk": 1.7995058298110962,
+        "shoulder_asymmetry": 0.11181698739528656
+      },
+      {
+        "frame": 210,
+        "time": 7.0,
+        "valid": true,
+        "abduction": 131.64881896972656,
+        "elbow": 155.46434020996094,
+        "trunk": 1.305662751197815,
+        "shoulder_asymmetry": 0.11221472173929214
+      },
+      {
+        "frame": 216,
+        "time": 7.2,
+        "valid": true,
+        "abduction": 130.36241149902344,
+        "elbow": 155.4695587158203,
+        "trunk": 1.3519049882888794,
+        "shoulder_asymmetry": 0.1073615700006485
+      },
+      {
+        "frame": 222,
+        "time": 7.4,
+        "valid": true,
+        "abduction": 129.34243774414062,
+        "elbow": 154.27040100097656,
+        "trunk": 1.687716007232666,
+        "shoulder_asymmetry": 0.10920316725969315
+      },
+      {
+        "frame": 228,
+        "time": 7.6,
+        "valid": true,
+        "abduction": 129.6231231689453,
+        "elbow": 154.55848693847656,
+        "trunk": 1.566980004310608,
+        "shoulder_asymmetry": 0.10889080166816711
+      },
+      {
+        "frame": 234,
+        "time": 7.8,
+        "valid": true,
+        "abduction": 129.26470947265625,
+        "elbow": 156.3161163330078,
+        "trunk": 1.675146222114563,
+        "shoulder_asymmetry": 0.10810866206884384
+      },
+      {
+        "frame": 240,
+        "time": 8.0,
+        "valid": true,
+        "abduction": 128.81031799316406,
+        "elbow": 156.33502197265625,
+        "trunk": 1.7997233867645264,
+        "shoulder_asymmetry": 0.10651980340480804
+      },
+      {
+        "frame": 246,
+        "time": 8.2,
+        "valid": true,
+        "abduction": 120.50655364990234,
+        "elbow": 151.0064697265625,
+        "trunk": 1.285422444343567,
+        "shoulder_asymmetry": 0.10713152587413788
+      },
+      {
+        "frame": 252,
+        "time": 8.4,
+        "valid": true,
+        "abduction": 113.16738891601562,
+        "elbow": 155.2233123779297,
+        "trunk": 0.8853651881217957,
+        "shoulder_asymmetry": 0.09163962304592133
+      },
+      {
+        "frame": 258,
+        "time": 8.6,
+        "valid": true,
+        "abduction": 98.91266632080078,
+        "elbow": 156.25558471679688,
+        "trunk": 1.815853476524353,
+        "shoulder_asymmetry": 0.06107243895530701
+      },
+      {
+        "frame": 264,
+        "time": 8.8,
+        "valid": true,
+        "abduction": 80.31597137451172,
+        "elbow": 151.06787109375,
+        "trunk": 2.33019757270813,
+        "shoulder_asymmetry": 0.03060067631304264
+      },
+      {
+        "frame": 270,
+        "time": 9.0,
+        "valid": true,
+        "abduction": 69.83967590332031,
+        "elbow": 161.89305114746094,
+        "trunk": 2.8177225589752197,
+        "shoulder_asymmetry": 0.012226585298776627
+      },
+      {
+        "frame": 276,
+        "time": 9.2,
+        "valid": true,
+        "abduction": 53.0958366394043,
+        "elbow": 163.02127075195312,
+        "trunk": 2.1849842071533203,
+        "shoulder_asymmetry": 0.017471572384238243
+      },
+      {
+        "frame": 282,
+        "time": 9.4,
+        "valid": true,
+        "abduction": 40.039695739746094,
+        "elbow": 168.56236267089844,
+        "trunk": 2.1054279804229736,
+        "shoulder_asymmetry": 0.030667388811707497
+      },
+      {
+        "frame": 288,
+        "time": 9.6,
+        "valid": true,
+        "abduction": 31.834293365478516,
+        "elbow": 172.82730102539062,
+        "trunk": 1.7179415225982666,
+        "shoulder_asymmetry": 0.036278434097766876
+      },
+      {
+        "frame": 294,
+        "time": 9.8,
+        "valid": true,
+        "abduction": 26.417150497436523,
+        "elbow": 175.86239624023438,
+        "trunk": 1.468470811843872,
+        "shoulder_asymmetry": 0.03435797989368439
+      },
+      {
+        "frame": 300,
+        "time": 10.0,
+        "valid": true,
+        "abduction": 23.29874038696289,
+        "elbow": 163.92616271972656,
+        "trunk": 2.109977960586548,
+        "shoulder_asymmetry": 0.03131907805800438
+      },
+      {
+        "frame": 306,
+        "time": 10.2,
+        "valid": true,
+        "abduction": 22.640178680419922,
+        "elbow": 160.0792999267578,
+        "trunk": 2.2499454021453857,
+        "shoulder_asymmetry": 0.03475566208362579
+      },
+      {
+        "frame": 312,
+        "time": 10.4,
+        "valid": true,
+        "abduction": 22.670482635498047,
+        "elbow": 160.8186492919922,
+        "trunk": 2.037015914916992,
+        "shoulder_asymmetry": 0.03291204199194908
+      },
+      {
+        "frame": 318,
+        "time": 10.6,
+        "valid": true,
+        "abduction": 22.590391159057617,
+        "elbow": 161.16729736328125,
+        "trunk": 2.0444962978363037,
+        "shoulder_asymmetry": 0.034754663705825806
+      },
+      {
+        "frame": 324,
+        "time": 10.8,
+        "valid": true,
+        "abduction": 22.45402717590332,
+        "elbow": 160.8806915283203,
+        "trunk": 2.163560390472412,
+        "shoulder_asymmetry": 0.03206269443035126
+      }
+    ],
+    "expected_dataset_label": "correta"
+  },
+  "audio": {
+    "sha256": "ca326ad3f989b40225eaad1e608d28f08ddf3b3a143578a6e5dedca78cb90bbe",
+    "language": "pt",
+    "vad_filter": true,
+    "beam_size": 5,
+    "source": "A01.m4a",
+    "model": "Whisper small multilingual CPU int8",
+    "transcript": "Estou confortável e consigo continuar o exercício.",
+    "segments": [
+      {
+        "start": 0.37,
+        "end": 4.37,
+        "text": "Estou confortável e consigo continuar o exercício."
+      }
+    ],
+    "analysis": {
+      "attention": "nao",
+      "evidence": [],
+      "review_notes": [],
+      "original_text": "Estou confortável e consigo continuar o exercício."
+    },
+    "status": "transcrito",
+    "expected_script_label": "nao",
+    "script_reference": "Estou confortável e consigo continuar o exercício."
+  },
+  "alert": {
+    "events": [],
+    "aligned": false,
+    "combined": false,
+    "priority": "sem_eventos_previstos",
+    "note": "Fontes independentes: cenario composto, sem sincronizacao clinica."
+  },
+  "acknowledged_utc": null,
+  "evidence_metadata": {
+    "kind": "automated_functional_development_check",
+    "source_paths": "basenames_only",
+    "acknowledgement": "automated_button_click_when_present",
+    "not_independent_performance_evaluation": true,
+    "contains_raw_media": false
+  }
+}

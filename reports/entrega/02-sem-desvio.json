@@ -1,0 +1,441 @@
+{
+  "id": "b118ea8ce91f",
+  "created_utc": "2026-11-16T22:38:15.461878+00:00",
+  "video": {
+    "model_version": "reference-v2",
+    "decision_threshold": 0.5,
+    "calibration": {
+      "id": "PM_001-rep-1",
+      "person_id": "1",
+      "source_sha256": "92bdac73d80692914749701cc3adac91eb56eeb9a275d12f2bec93e08325dfd8",
+      "start": 4.333333333333333,
+      "end": 10.8,
+      "features": [
+        129.56698608398438,
+        106.8298282623291,
+        154.29923400878906,
+        2.482963705062866,
+        0.11129422336816788,
+        6.466666666666668,
+        152.9848846435547,
+        155.4695587158203,
+        2.351687860488892,
+        0.1127558931708336,
+        0.5151515151515151,
+        0.0,
+        73.85186386108425,
+        0.41237113402061853,
+        7.912353515625
+      ],
+      "provenance": "dataset-labelled correct support, excluded from evaluation"
+    },
+    "classifier_artifact_sha256": "606402253e1a4cabb349d0ec4c8a985284b694815b75920b408170a5b525ed32",
+    "source": "PM_001-Camera17-30fps.mp4",
+    "sha256": "92bdac73d80692914749701cc3adac91eb56eeb9a275d12f2bec93e08325dfd8",
+    "exercise": "abducao_braco_direito_frontal",
+    "feature_names": [
+      "abduction_p90",
+      "abduction_range",
+      "elbow_p10",
+      "trunk_p90",
+      "shoulder_asymmetry_p90",
+      "duration",
+      "active_elbow_p10",
+      "active_elbow_median",
+      "active_trunk_p90",
+      "active_asymmetry_p90",
+      "active_fraction",
+      "active_bent_fraction",
+      "abduction_speed_p90",
+      "peak_relative_time",
+      "active_elbow_range"
+    ],
+    "repetitions": [
+      {
+        "start": 10.833333333333334,
+        "end": 17.9,
+        "coverage": 1.0,
+        "status": "referencia",
+        "features": [
+          123.65505828857422,
+          101.30703887939454,
+          157.02977600097657,
+          2.4628960132598876,
+          0.11786924898624421,
+          7.066666666666665,
+          156.22077331542968,
+          158.19932556152344,
+          1.5431161880493165,
+          0.12210433036088944,
+          0.37142857142857144,
+          0.0,
+          77.93037986755328,
+          0.5613207547169813,
+          7.761907958984381
+        ],
+        "deviation_score": 0.36560951699982835,
+        "reference_id": "PM_001-rep-1",
+        "decision_threshold": 0.5
+      }
+    ],
+    "processing_seconds": 27.80138890002854,
+    "measurements": [
+      {
+        "frame": 330,
+        "time": 11.0,
+        "valid": true,
+        "abduction": 22.465726852416992,
+        "elbow": 161.125244140625,
+        "trunk": 2.3028225898742676,
+        "shoulder_asymmetry": 0.03277834877371788
+      },
+      {
+        "frame": 336,
+        "time": 11.2,
+        "valid": true,
+        "abduction": 22.524255752563477,
+        "elbow": 161.58729553222656,
+        "trunk": 2.3477704524993896,
+        "shoulder_asymmetry": 0.03990926966071129
+      },
+      {
+        "frame": 342,
+        "time": 11.4,
+        "valid": true,
+        "abduction": 21.9022159576416,
+        "elbow": 162.12257385253906,
+        "trunk": 2.0129506587982178,
+        "shoulder_asymmetry": 0.03998013585805893
+      },
+      {
+        "frame": 348,
+        "time": 11.6,
+        "valid": true,
+        "abduction": 22.527446746826172,
+        "elbow": 161.70108032226562,
+        "trunk": 2.199625253677368,
+        "shoulder_asymmetry": 0.0334462933242321
+      },
+      {
+        "frame": 354,
+        "time": 11.8,
+        "valid": true,
+        "abduction": 22.46276092529297,
+        "elbow": 161.2332000732422,
+        "trunk": 2.135517120361328,
+        "shoulder_asymmetry": 0.033758241683244705
+      },
+      {
+        "frame": 360,
+        "time": 12.0,
+        "valid": true,
+        "abduction": 22.529096603393555,
+        "elbow": 161.0914306640625,
+        "trunk": 2.1773569583892822,
+        "shoulder_asymmetry": 0.033016387373209
+      },
+      {
+        "frame": 366,
+        "time": 12.2,
+        "valid": true,
+        "abduction": 22.324199676513672,
+        "elbow": 162.14073181152344,
+        "trunk": 1.8490676879882812,
+        "shoulder_asymmetry": 0.029746394604444504
+      },
+      {
+        "frame": 372,
+        "time": 12.4,
+        "valid": true,
+        "abduction": 25.18488121032715,
+        "elbow": 164.06826782226562,
+        "trunk": 1.7729922533035278,
+        "shoulder_asymmetry": 0.02554313838481903
+      },
+      {
+        "frame": 378,
+        "time": 12.6,
+        "valid": true,
+        "abduction": 29.708740234375,
+        "elbow": 175.6968231201172,
+        "trunk": 1.3655871152877808,
+        "shoulder_asymmetry": 0.023699192330241203
+      },
+      {
+        "frame": 384,
+        "time": 12.8,
+        "valid": true,
+        "abduction": 42.029109954833984,
+        "elbow": 176.5479278564453,
+        "trunk": 1.7219239473342896,
+        "shoulder_asymmetry": 0.014502626843750477
+      },
+      {
+        "frame": 390,
+        "time": 13.0,
+        "valid": true,
+        "abduction": 53.300872802734375,
+        "elbow": 178.5423583984375,
+        "trunk": 2.0070111751556396,
+        "shoulder_asymmetry": 0.0031473254784941673
+      },
+      {
+        "frame": 396,
+        "time": 13.2,
+        "valid": true,
+        "abduction": 65.3687515258789,
+        "elbow": 173.1355438232422,
+        "trunk": 2.3803904056549072,
+        "shoulder_asymmetry": 0.013064704835414886
+      },
+      {
+        "frame": 402,
+        "time": 13.4,
+        "valid": true,
+        "abduction": 74.10586547851562,
+        "elbow": 170.80838012695312,
+        "trunk": 1.9651309251785278,
+        "shoulder_asymmetry": 0.026567036285996437
+      },
+      {
+        "frame": 408,
+        "time": 13.6,
+        "valid": true,
+        "abduction": 81.97306823730469,
+        "elbow": 162.22215270996094,
+        "trunk": 1.4561591148376465,
+        "shoulder_asymmetry": 0.05609412118792534
+      },
+      {
+        "frame": 414,
+        "time": 13.8,
+        "valid": true,
+        "abduction": 98.95873260498047,
+        "elbow": 168.8572998046875,
+        "trunk": 1.854035496711731,
+        "shoulder_asymmetry": 0.0877709686756134
+      },
+      {
+        "frame": 420,
+        "time": 14.0,
+        "valid": true,
+        "abduction": 107.61027526855469,
+        "elbow": 164.35012817382812,
+        "trunk": 1.2346384525299072,
+        "shoulder_asymmetry": 0.1042657196521759
+      },
+      {
+        "frame": 426,
+        "time": 14.2,
+        "valid": true,
+        "abduction": 115.63247680664062,
+        "elbow": 160.23680114746094,
+        "trunk": 0.5961046814918518,
+        "shoulder_asymmetry": 0.11707758158445358
+      },
+      {
+        "frame": 432,
+        "time": 14.4,
+        "valid": true,
+        "abduction": 119.98714447021484,
+        "elbow": 156.33531188964844,
+        "trunk": 0.9110717177391052,
+        "shoulder_asymmetry": 0.10853800177574158
+      },
+      {
+        "frame": 438,
+        "time": 14.6,
+        "valid": true,
+        "abduction": 124.48168182373047,
+        "elbow": 157.6897430419922,
+        "trunk": 1.1010956764221191,
+        "shoulder_asymmetry": 0.12251600623130798
+      },
+      {
+        "frame": 444,
+        "time": 14.8,
+        "valid": true,
+        "abduction": 126.56525421142578,
+        "elbow": 158.30303955078125,
+        "trunk": 0.8332173228263855,
+        "shoulder_asymmetry": 0.1266663670539856
+      },
+      {
+        "frame": 450,
+        "time": 15.0,
+        "valid": true,
+        "abduction": 126.02445220947266,
+        "elbow": 158.19932556152344,
+        "trunk": 1.2043101787567139,
+        "shoulder_asymmetry": 0.11709783226251602
+      },
+      {
+        "frame": 456,
+        "time": 15.2,
+        "valid": true,
+        "abduction": 125.43114471435547,
+        "elbow": 158.1869354248047,
+        "trunk": 1.1731982231140137,
+        "shoulder_asymmetry": 0.11750593036413193
+      },
+      {
+        "frame": 462,
+        "time": 15.4,
+        "valid": true,
+        "abduction": 122.41512298583984,
+        "elbow": 156.192138671875,
+        "trunk": 0.3220335841178894,
+        "shoulder_asymmetry": 0.12045762687921524
+      },
+      {
+        "frame": 468,
+        "time": 15.6,
+        "valid": true,
+        "abduction": 117.73545837402344,
+        "elbow": 154.584716796875,
+        "trunk": 0.18022575974464417,
+        "shoulder_asymmetry": 0.11811146140098572
+      },
+      {
+        "frame": 474,
+        "time": 15.8,
+        "valid": true,
+        "abduction": 107.55272674560547,
+        "elbow": 156.5897979736328,
+        "trunk": 0.9952431321144104,
+        "shoulder_asymmetry": 0.08300798386335373
+      },
+      {
+        "frame": 480,
+        "time": 16.0,
+        "valid": true,
+        "abduction": 96.0755615234375,
+        "elbow": 162.5128936767578,
+        "trunk": 1.5648554563522339,
+        "shoulder_asymmetry": 0.0717771127820015
+      },
+      {
+        "frame": 486,
+        "time": 16.2,
+        "valid": true,
+        "abduction": 75.09487915039062,
+        "elbow": 163.1735382080078,
+        "trunk": 2.0156710147857666,
+        "shoulder_asymmetry": 0.008163832128047943
+      },
+      {
+        "frame": 492,
+        "time": 16.4,
+        "valid": true,
+        "abduction": 57.73195266723633,
+        "elbow": 162.2467498779297,
+        "trunk": 2.5655956268310547,
+        "shoulder_asymmetry": 0.009070769883692265
+      },
+      {
+        "frame": 498,
+        "time": 16.6,
+        "valid": true,
+        "abduction": 39.19509506225586,
+        "elbow": 166.39349365234375,
+        "trunk": 2.1705148220062256,
+        "shoulder_asymmetry": 0.0310249924659729
+      },
+      {
+        "frame": 504,
+        "time": 16.8,
+        "valid": true,
+        "abduction": 28.91687774658203,
+        "elbow": 178.49557495117188,
+        "trunk": 1.9969419240951538,
+        "shoulder_asymmetry": 0.038420602679252625
+      },
+      {
+        "frame": 510,
+        "time": 17.0,
+        "valid": true,
+        "abduction": 23.986860275268555,
+        "elbow": 166.5817413330078,
+        "trunk": 2.508660316467285,
+        "shoulder_asymmetry": 0.031231582164764404
+      },
+      {
+        "frame": 516,
+        "time": 17.2,
+        "valid": true,
+        "abduction": 22.09002113342285,
+        "elbow": 160.49241638183594,
+        "trunk": 2.788602828979492,
+        "shoulder_asymmetry": 0.03473746404051781
+      },
+      {
+        "frame": 522,
+        "time": 17.4,
+        "valid": true,
+        "abduction": 22.999595642089844,
+        "elbow": 160.96267700195312,
+        "trunk": 2.4990451335906982,
+        "shoulder_asymmetry": 0.039558038115501404
+      },
+      {
+        "frame": 528,
+        "time": 17.6,
+        "valid": true,
+        "abduction": 22.38374900817871,
+        "elbow": 160.79400634765625,
+        "trunk": 2.408672332763672,
+        "shoulder_asymmetry": 0.03363294526934624
+      },
+      {
+        "frame": 534,
+        "time": 17.8,
+        "valid": true,
+        "abduction": 21.96628761291504,
+        "elbow": 161.7022247314453,
+        "trunk": 2.1608450412750244,
+        "shoulder_asymmetry": 0.0330195426940918
+      }
+    ],
+    "expected_dataset_label": "correta"
+  },
+  "audio": {
+    "sha256": "ca326ad3f989b40225eaad1e608d28f08ddf3b3a143578a6e5dedca78cb90bbe",
+    "language": "pt",
+    "vad_filter": true,
+    "beam_size": 5,
+    "source": "A01.m4a",
+    "model": "Whisper small multilingual CPU int8",
+    "transcript": "Estou confortável e consigo continuar o exercício.",
+    "segments": [
+      {
+        "start": 0.37,
+        "end": 4.37,
+        "text": "Estou confortável e consigo continuar o exercício."
+      }
+    ],
+    "analysis": {
+      "attention": "nao",
+      "evidence": [],
+      "review_notes": [],
+      "original_text": "Estou confortável e consigo continuar o exercício."
+    },
+    "status": "transcrito",
+    "expected_script_label": "nao",
+    "script_reference": "Estou confortável e consigo continuar o exercício."
+  },
+  "alert": {
+    "events": [],
+    "aligned": false,
+    "combined": false,
+    "priority": "sem_eventos_previstos",
+    "note": "Fontes independentes: cenario composto, sem sincronizacao clinica."
+  },
+  "acknowledged_utc": null,
+  "evidence_metadata": {
+    "kind": "automated_functional_development_check",
+    "source_paths": "basenames_only",
+    "acknowledgement": "automated_button_click_when_present",
+    "not_independent_performance_evaluation": true,
+    "contains_raw_media": false
+  }
+}

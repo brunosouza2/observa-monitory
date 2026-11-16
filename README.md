@@ -27,8 +27,14 @@ Veja o [guia de 15/11](docs/testes/teste-15-11.md) para testar os exemplos, envi
 - [Relatório técnico em Markdown](docs/relatorios/relatorio-tecnico.md) e [PDF](docs/relatorios/relatorio-tecnico.pdf).
 - [Reprodução dos experimentos](docs/operacao/reproducao.md).
 - [Planejamento e estado do cronograma](docs/planejamento/planejamento-fase-4.md).
+- [Roteiro do vídeo e demonstrações](docs/apresentacao/roteiro-video.md) e [guia para o grupo](docs/apresentacao/guia-do-grupo.md).
+- [Evidências selecionadas de sessões JSON/HTML](reports/entrega/README.md), geradas por verificação funcional automatizada, com confirmação identificada como automática.
 - Métricas e matrizes em `reports/video-*-metrics.json`; áudio reservado em `reports/audio-teste-small.json`.
 - Sessões e confirmações em `reports/sessions`; feedback em `reports/feedback`.
+
+As pastas de sessões e feedback completos são locais e não estão no GitHub. Os quatro exemplos selecionados em `reports/entrega` estão versionados, sem mídia bruta ou caminhos locais completos. A arquitetura está no [diagrama](docs/relatorios/arquitetura.md) e no PDF. Situação da preparação de 16/11: [acompanhamento](docs/acompanhamento/preparacao-16-11.md).
+
+**Vídeo da apresentação:** pendente de gravação e publicação em 17/11. Ao receber o link definitivo do YouTube/Vimeo, atualizar `presentation_url` em `configs/entrega.json`, esta linha do README e gerar novamente o relatório técnico. A entrega só se encerra após a conferência dos links e a submissão.
 
 Vídeo: 51 repetições de treino, 41 de validação e 42 de teste, com pessoas separadas. Áudio: A01–A04 para calibração e A05–A08 para a primeira avaliação reservada. No áudio reservado houve coincidência com os quatro roteiros, ainda sujeitos a conferência humana. Esses dados de teste já foram utilizados: futuras alterações não terão neles um teste independente novo.
 
@@ -58,3 +64,5 @@ Modelos: YOLOv8n-Pose (https://docs.ultralytics.com/models/yolov8/) e Whisper sm
 ```
 
 O teste do painel usa exemplos de desenvolvimento e confirma um alerta, produzindo uma sessão local. Métricas, limitações e instruções estão no relatório técnico. Processar gravações não comprova funcionamento em tempo real nem validação clínica.
+
+Para preparar/verificar os quatro cenários da apresentação e regerar as evidências selecionadas: `& .tools/python/python.exe scripts/preparar_demonstracao.py`. Isso usa a instalação e os dados locais; não representa uma instalação limpa. A verificação do conteúdo exportado é separada do download real em navegador já conferido em 15/11.
